@@ -1,2 +1,3 @@
 transformers
+torchvision
 qwen-vl-utils
