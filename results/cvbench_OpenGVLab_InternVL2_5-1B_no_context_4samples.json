@@ -1,0 +1,104 @@
+{
+    "unchanged": [
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "(A) books",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "(B) books",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "(B) television",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "(B) books",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "(B) television",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "(B) books",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "(B) bookcase",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "(A) table",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "(B) bookcase",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(B)",
+            "id": 20
+        }
+    ]
+}

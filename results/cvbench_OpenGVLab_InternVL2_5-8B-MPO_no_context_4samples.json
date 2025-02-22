@@ -1,0 +1,104 @@
+{
+    "unchanged": [
+        {
+            "pred": "A. lamp\n\nThe lamp is closer to the camera than the refrigerator. The lamp is hanging from the ceiling, while the refrigerator is situated further back in the kitchen.",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "B) table\n\nThe table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is positioned further back in the room.",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "A. shelves\n\nThe shelves are closer to the camera than the table. The red box around the shelves is positioned lower in the image, indicating they are nearer to the camera's perspective.",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "A. chair\n\nThe chair highlighted by the red box is closer to the camera than the books highlighted by the blue box. The chair is positioned in the foreground, while the books are on a bookshelf further back in the room.",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "A. books\n\nThe books are closer to the camera than the lamp. The red box around the books is positioned in the foreground, while the blue box around the lamp is further back in the room.",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera. The red box highlights the desk, which is positioned further back in the room, while the blue box highlights the table, which is in the foreground.",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "A. lamp\n\nThe lamp is closer to the camera than the table. The red box around the lamp is positioned in the foreground, while the blue box around the table is further back in the room.",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "B. books\n\nThe books are closer to the camera than the television. The books are placed on a table in the foreground, while the television is mounted on the wall in the background.",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "A. shelves\n\nThe shelves are closer to the camera than the television. The red box around the shelves is positioned higher on the wall, indicating they are nearer to the viewpoint. The blue box around the television is lower and further back, suggesting it is positioned further away from the camera.",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "B. books\n\nThe books are closer to the camera than the shelves. This can be determined by observing the relative sizes and positions of the objects in the image. The books on the coffee table appear larger and more detailed, indicating they are nearer to the camera. In contrast, the shelves in the background appear smaller and less detailed, suggesting they are further away.",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "A. table\n\nThe table is closer to the camera than the television. The table is positioned in the foreground, while the television is placed further back in the room.",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "B) books\n\nThe books (highlighted by a blue box) are closer to the camera than the bookcase (highlighted by a red box). The blue box is on a table in the foreground, while the red box is on a higher shelf in the background.",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "A. chair\n\nThe chair is closer to the camera than the bookcase. The red box around the chair is positioned in the foreground, while the blue box around the bookcase is in the background.",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "B. shelves\n\nThe shelves are closer to the camera than the chair. The blue box around the shelves is positioned lower in the image, indicating they are nearer to the camera's perspective. The chair, highlighted by the red box, is positioned further back in the room.",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "B) bookcase\n\nThe bookcase is closer to the camera than the table. The blue box around the bookcase is positioned in front of the red box around the table, indicating that the bookcase is nearer to the viewpoint.",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "B) table\n\nThe table is closer to the camera than the bookcase. This can be determined by observing the relative sizes and positions of the objects in the image. The table is in the foreground, while the bookcase is positioned further back in the room.",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "A. chair\n\nThe chair is closer to the camera than the bookcase. The red box around the chair is positioned in the foreground, while the blue box around the bookcase is further back in the room.",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "B) chair\n\nThe chair is closer to the camera than the floor mat. The blue box around the chair is positioned lower in the image, indicating it is nearer to the camera's perspective. The red box around the floor mat is higher up in the image, suggesting it is further away.",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "B. bookcase\n\nThe bookcase is closer to the camera than the table. The blue box around the bookcase is positioned in front of the red box around the table, indicating that the bookcase is nearer to the viewpoint.",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera than the television. The table is situated in the foreground, while the television is positioned further back in the room.",
+            "answer": "(B)",
+            "id": 20
+        }
+    ]
+}

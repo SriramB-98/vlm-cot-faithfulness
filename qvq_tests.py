@@ -6,9 +6,6 @@ from PIL import Image
 import requests
 from io import BytesIO
 # # default: Load the model on the available device(s)
-# model = Qwen2VLForConditionalGeneration.from_pretrained(
-#     "Qwen/QVQ-72B-Preview", torch_dtype="auto", device_map="auto"
-# )
 
 # default processer
 processor = AutoProcessor.from_pretrained("Qwen/QVQ-72B-Preview")
@@ -96,6 +93,9 @@ inputs_2 = processor(
 
 # %%
 # Inference: Generation of the output
+model = Qwen2VLForConditionalGeneration.from_pretrained(
+    "Qwen/QVQ-72B-Preview", torch_dtype="auto", device_map="auto"
+)
 generated_ids = model.generate(**inputs, max_new_tokens=8192)
 generated_ids_trimmed = [
     out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)

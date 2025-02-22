@@ -1,0 +1,206 @@
+{
+    "red colored": [
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "(A) books",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "(A) desk",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "(A) shelves",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "(A) shelves",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": "(A) sofa",
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": "(A) shelves",
+            "answer": "(B)",
+            "id": 21
+        }
+    ],
+    "blue colored": [
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "(A) books",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "(A) desk",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "(A) shelves",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "B",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "A",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "(A) television",
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": "(A) sofa",
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": "A",
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": "(A) shelves",
+            "answer": "(B)",
+            "id": 21
+        }
+    ]
+}

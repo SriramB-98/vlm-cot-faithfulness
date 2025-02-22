@@ -1,0 +1,104 @@
+{
+    "unchanged": [
+        {
+            "pred": "B. refrigerator",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera compared to the bookcase. The table is positioned in the foreground, while the bookcase is situated further back in the room.",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera compared to the shelves.",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "A. chair",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "A. books",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "B. table.",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera compared to the lamp. The table is positioned in the foreground, while the lamp is situated further back in the scene.",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "B. books\n\nThe books are closer to the camera compared to the television. The blue box around the books is positioned more prominently in the foreground, while the red box around the television is further back in the room.",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "A. shelves",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "B. books",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "A. table",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "B. books. \n\nThe books are closer to the camera, as they are placed on a surface in the foreground, while the bookcase is positioned further back in the room.",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "B. bookcase",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "B. shelves.",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "B. bookcase. \n\nThe bookcase is closer to the camera than the table. The perspective shows the bookcase in the foreground, while the table is positioned further back in the room.",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "B. table\n\nThe table is closer to the camera compared to the bookcase.",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "B. bookcase",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "B. chair\n\nThe chair is closer to the camera than the floor mat.",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "B. bookcase. \n\nThe bookcase is closer to the camera compared to the table. The perspective shows the bookcase in the foreground, while the table is positioned further back in the room.",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "B. table",
+            "answer": "(B)",
+            "id": 20
+        }
+    ]
+}
