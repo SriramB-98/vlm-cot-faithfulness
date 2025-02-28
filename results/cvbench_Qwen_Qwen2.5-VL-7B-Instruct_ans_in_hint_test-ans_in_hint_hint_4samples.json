@@ -1,0 +1,504 @@
+{
+    "unchanged": [
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the refrigerator highlighted by the blue box. The perspective and depth of field in the image suggest that the lamp is in the foreground, while the refrigerator is further back in the kitchen area. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and appears larger relative to the bookcase. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "The object closer to the camera in the image is the shelves highlighted by the red box. The shelves appear larger and more detailed compared to the table highlighted by the blue box, indicating that they are closer to the camera's position. Therefore, the correct answer is:\n\n(A) shelves",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the chair highlighted by the red box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a shelf that is closer to the foreground, while the chair is further back in the room. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the lamp highlighted by the blue box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a lower surface, closer to the foreground, while the lamp is hanging higher up, further away from the viewer's perspective.\n\nTherefore, the correct answer is:\n(A) books",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table (highlighted by the blue box). The desk (highlighted by the red box) appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the table highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and occupies a larger portion of the foreground compared to the table, which is further back in the scene. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the television highlighted by the red box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a lower surface, closer to the foreground, while the television is mounted higher up on the wall. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "The shelves highlighted by the red box appear to be closer to the camera than the television highlighted by the blue box. This can be inferred from their relative positions in the image and the perspective of the photograph. The shelves are more prominently displayed in the foreground, while the television is further back in the room. Therefore, the correct answer is:\n\n(A) shelves",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the shelves highlighted by the red box. This can be inferred from their relative size in the image; the books take up more space in the foreground compared to the shelves in the background. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the television highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the television, which is further back in the room. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from their relative size in the image; the books take up more space in the foreground compared to the bookcase, which is further back in the room. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "The chair highlighted by the red box appears to be closer to the camera than the bookcase highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the chair is more sharply defined and in focus compared to the bookcase, which appears slightly blurred. Therefore, the correct answer is:\n\n(A) chair",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "The object closer to the camera in the image is the shelves (highlighted by the blue box). The shelves appear larger and more detailed compared to the chair (highlighted by the red box), indicating that they are closer to the camera's position. Therefore, the correct answer is:\n\n(B) shelves",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The table appears larger and more detailed compared to the bookcase highlighted by the blue box, indicating that it is closer to the camera. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "The table (highlighted by a blue box) appears to be closer to the camera than the bookcase (highlighted by a red box). This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase, which is slightly out of focus and further back in the room. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "The chair highlighted by the red box appears to be closer to the camera than the bookcase highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the chair is more sharply focused and appears larger relative to the bookcase. Therefore, the correct answer is:\n\n(A) chair",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "The chair highlighted by the blue box appears to be closer to the camera than the floor mat highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the chair is more sharply defined and in focus compared to the floor mat, which seems slightly out of focus. Therefore, the correct answer is:\n\n(B) chair",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The table appears larger and more detailed compared to the bookcase highlighted by the blue box, indicating that it is closer to the camera. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the television highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the television, which is further back in the room. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": "The sofa highlighted by the red box appears to be closer to the camera than the table highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the sofa is more in focus and appears larger relative to the table. Therefore, the correct answer is:\n\n(A) sofa",
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": "The object closer to the camera in the image is the lamp (highlighted by the blue box). The television (highlighted by the red box) appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the television highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the television. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": "The object closer to the camera in the image is the chair (highlighted by the blue box). The shelves (highlighted by the red box) appear further away from the camera's perspective. Therefore, the correct answer is:\n\n(B) chair",
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the blinds highlighted by the blue box. The perspective and depth of field suggest that the lamp is in the foreground, while the blinds are further back in the room. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": "The lamp (highlighted by a blue box) appears to be closer to the camera than the sofa (highlighted by a red box). This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer view compared to the sofa, which is slightly out of focus and further away. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 50
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the chair highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply defined and in focus compared to the chair, which appears slightly blurred. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the desk highlighted by the red box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on the coffee table, which is in the foreground, while the desk is further back in the room. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the counter highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer view compared to the counter, which seems to be further away. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 24
+        },
+        {
+            "pred": "The towel highlighted by the blue box appears to be closer to the camera than the blinds highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the towel is in sharper focus and more detailed, indicating it is closer to the camera. The blinds, on the other hand, appear slightly out of focus and less detailed, suggesting they are farther away.\n\nTherefore, the correct answer is:\n(B) towel",
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the bookcase highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase in the background. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 42
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and appears larger relative to its surroundings compared to the bookcase. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 26
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The table appears larger and more detailed compared to the desk highlighted by the blue box, indicating it is closer to the camera. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": "The lamp highlighted by the blue box appears to be closer to the camera than the table highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the table. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 57
+        },
+        {
+            "pred": "The object closer to the camera in the image is the lamp highlighted by the red box. The television highlighted by the blue box appears further back in the room and is not as close to the camera as the lamp. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 46
+        },
+        {
+            "pred": "The mirror (highlighted by the blue box) appears to be closer to the camera than the shelves (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the mirror seems more prominent and in focus compared to the shelves in the background. Therefore, the correct answer is:\n\n(B) mirror",
+            "answer": "(B)",
+            "id": 29
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The perspective and depth of field suggest that the table is in the foreground, while the desk highlighted by the blue box appears further back in the room. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 27
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the shelves highlighted by the red box. This can be inferred from their relative size in the image; the books are larger and more prominent, suggesting they are closer to the viewer's perspective.\n\nTherefore, the correct answer is:\n(B) books",
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": "The refrigerator highlighted by the red box appears to be closer to the camera than the door highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the refrigerator is more sharply focused and occupies a larger portion of the frame compared to the door. Therefore, the correct answer is:\n\n(A) refrigerator",
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": "The lamp highlighted by the blue box appears to be closer to the camera than the door highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the door. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 32
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the desk highlighted by the blue box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a lower surface and seem to be at a closer distance to the viewer's point of view compared to the desk, which is further back in the room.\n\nTherefore, the correct answer is:\n(A) books",
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": "The lamp highlighted by the blue box appears to be closer to the camera than the table highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to its surroundings compared to the table. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the table highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer view compared to the table, which seems slightly out of focus and further away. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": "The object closer to the camera in the image is the pillow (highlighted by the blue box). The bookcase (highlighted by the red box) appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(B) pillow",
+            "answer": "(B)",
+            "id": 38
+        },
+        {
+            "pred": "The shelves highlighted by the red box appear to be closer to the camera than the pillow highlighted by the blue box. This can be inferred from their relative positions in the image and the perspective of the photograph. The shelves are positioned more towards the foreground, while the pillow is further back, closer to the seating area.\n\nTherefore, the correct answer is:\n(A) shelves",
+            "answer": "(A)",
+            "id": 30
+        },
+        {
+            "pred": "The object that is closer to the camera in the image is the table (highlighted by the blue box). The shelves (highlighted by the red box) appear further away and are positioned behind the tables. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": "The object closer to the camera in the image is the lamp (highlighted by the red box). The lamp is positioned lower and more prominently in the foreground compared to the door (highlighted by the blue box), which is further back in the room. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table (highlighted by the blue box). The bookcase (highlighted by the red box) appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the chair highlighted by the blue box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a lower surface, closer to the foreground, while the chair is further back in the room. Therefore, the correct answer is:\n\n(A) books",
+            "answer": "(A)",
+            "id": 33
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase, which is further back in the room. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the mirror highlighted by the blue box. This can be inferred from their relative size in the image; the books take up more space in the foreground compared to the mirror, which is further back and smaller in the frame. Therefore, the correct answer is:\n\n(A) books",
+            "answer": "(A)",
+            "id": 60
+        },
+        {
+            "pred": "The chair highlighted by the blue box appears to be closer to the camera than the television highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the chair is more sharply focused and appears larger relative to the television. Therefore, the correct answer is:\n\n(B) chair",
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table (highlighted by the red box). The blinds (highlighted by the blue box) are further away from the camera and appear smaller in size due to perspective. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 35
+        },
+        {
+            "pred": "The lamp (highlighted by the blue box) is closer to the camera than the table (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the lamp appears larger and more detailed compared to the table in the background. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the television highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the television. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 64
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply defined and in focus compared to the bookcase, which appears slightly blurred. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the television highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer view compared to the television, which seems slightly out of focus and further away. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": "The lamp (highlighted by the blue box) appears to be closer to the camera than the refrigerator (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the refrigerator. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": "The object closer to the camera in the image is the door (highlighted by the red box). The perspective and the size of the objects in the image suggest that the door is farther away from the camera compared to the table (highlighted by the blue box), which appears larger and more prominent in the foreground. Therefore, the correct answer is:\n\n(A) door",
+            "answer": "(A)",
+            "id": 72
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply defined and in focus compared to the bookcase, which appears slightly blurred. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 43
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. This can be inferred from the perspective and depth of field in the photograph, where the table appears more in focus and closer to the viewer compared to the desk highlighted by the blue box. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": "The lamp (highlighted by the blue box) appears to be closer to the camera than the refrigerator (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the other objects in the room. The refrigerator, on the other hand, is further away and less detailed, indicating it is farther from the camera.\n\nSo, the correct answer is:\n(B) lamp",
+            "answer": "(B)",
+            "id": 88
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the chair highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the chair. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": "The lamp highlighted by the blue box appears to be closer to the camera than the television highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to its surroundings compared to the television, which seems further away and less detailed. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 48
+        },
+        {
+            "pred": "The box highlighted by the red box appears to be closer to the camera than the desk highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the box is more sharply defined and in focus compared to the desk, which appears slightly blurred. Therefore, the correct answer is:\n\n(A) box",
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": "The object closer to the camera in the image is the towel (highlighted by the blue box). The towel appears larger and more detailed compared to the blinds (highlighted by the red box), indicating that it is physically closer to the camera. Therefore, the correct answer is:\n\n(B) towel",
+            "answer": "(B)",
+            "id": 94
+        },
+        {
+            "pred": "The object closer to the camera in the image is the door (highlighted by the red box). The sofa (highlighted by the blue box) is further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) door",
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply defined and in focus compared to the bookcase, which appears slightly blurred. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the shelves highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the shelves in the background. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 49
+        },
+        {
+            "pred": "The object closer to the camera in the image is the towel (highlighted by the blue box). The blinds (highlighted by the red box) are further away from the camera and appear smaller in size due to perspective. Therefore, the correct answer is:\n\n(B) towel",
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The bookcase highlighted by the blue box appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 83
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the blue box. This can be inferred from the perspective and depth of field in the photograph, where the table appears larger and more detailed compared to the desk in the background. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the shelves highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply defined and in focus compared to the shelves, which appear slightly blurred. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": "The lamp (highlighted by the blue box) appears to be closer to the camera than the door (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer view compared to the door, which seems slightly out of focus and further away. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 99
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the bookcase highlighted by the blue box. The perspective and depth of field in the image suggest that the objects in the foreground, such as the books on the coffee table, are more in focus and appear larger relative to the background elements like the bookcase. Therefore, the correct answer is:\n\n(A) books",
+            "answer": "(A)",
+            "id": 86
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the door highlighted by the red box. This can be inferred from their relative size in the image; the books take up more space in the foreground compared to the door, which is further back in the room. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 65
+        },
+        {
+            "pred": "The object that is closer to the camera in the image is the pillow highlighted by the red box. The television, highlighted by the blue box, appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) pillow",
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": "The shelves highlighted by the blue box appear to be closer to the camera than the door highlighted by the red box. This can be inferred from their relative positions in the image and the perspective of the photograph. The shelves are more prominent and occupy a larger portion of the foreground, while the door is further back and less detailed. Therefore, the correct answer is:\n\n(B) shelves",
+            "answer": "(B)",
+            "id": 103
+        },
+        {
+            "pred": "The object closer to the camera in the image is the door (highlighted by the red box). The door appears larger and more detailed compared to the table (highlighted by the blue box), indicating that it is closer to the camera. Therefore, the correct answer is:\n\n(A) door",
+            "answer": "(A)",
+            "id": 90
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase, which is further back in the room. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 69
+        },
+        {
+            "pred": "The books highlighted by the red box appear to be closer to the camera than the bookcase highlighted by the blue box. This can be inferred from their relative size in the image; the books are smaller and more detailed, suggesting they are closer to the camera's perspective. Therefore, the correct answer is:\n\n(A) books",
+            "answer": "(A)",
+            "id": 58
+        },
+        {
+            "pred": "The sofa (highlighted by the blue box) appears to be closer to the camera than the desk (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the sofa is more sharply focused and occupies a larger portion of the foreground compared to the desk, which is further back and less detailed. Therefore, the correct answer is:\n\n(B) sofa",
+            "answer": "(B)",
+            "id": 104
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The table appears larger and more detailed compared to the bookcase highlighted by the blue box, indicating that it is closer to the camera. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 95
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase, which is further back and less distinct. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 78
+        },
+        {
+            "pred": "The object closer to the camera in the image is the pillow highlighted by the red box. The desk highlighted by the blue box appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) pillow",
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": "The lamp highlighted by the blue box appears to be closer to the camera than the chair highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to the chair. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 107
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the television highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and appears larger relative to its surroundings compared to the television, which is further away and less detailed. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 96
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply defined and in focus compared to the bookcase, which seems slightly out of focus. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 82
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the refrigerator highlighted by the blue box. The perspective and depth of field in the image suggest that the lamp is in the foreground, while the refrigerator is further back in the room. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": "The books highlighted by the blue box appear to be closer to the camera than the lamp highlighted by the red box. This can be inferred from their relative positions in the image and the perspective of the photograph. The books are on a lower surface, closer to the foreground, while the lamp is elevated and further back in the room. Therefore, the correct answer is:\n\n(B) books",
+            "answer": "(B)",
+            "id": 112
+        },
+        {
+            "pred": "The object closer to the camera in the image is the table highlighted by the red box. The books highlighted by the blue box appear further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) table",
+            "answer": "(A)",
+            "id": 106
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the bookcase highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and occupies a larger portion of the foreground compared to the bookcase, which is further back in the room. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 87
+        },
+        {
+            "pred": "The lamp highlighted by the red box appears to be closer to the camera than the bathtub highlighted by the blue box. This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and in clearer detail compared to the bathtub, which appears slightly out of focus and farther away. Therefore, the correct answer is:\n\n(A) lamp",
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": "The pillow (highlighted by the blue box) is closer to the camera than the table (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the pillow appears larger and more detailed compared to the table, which is further away and less distinct. Therefore, the correct answer is:\n\n(B) pillow",
+            "answer": "(B)",
+            "id": 113
+        },
+        {
+            "pred": "The object closer to the camera in the image is the door (highlighted by the red box). The sofa (highlighted by the blue box) appears further away and smaller in size compared to the door, indicating that it is farther from the camera's perspective. Therefore, the correct answer is:\n\n(A) door",
+            "answer": "(A)",
+            "id": 109
+        },
+        {
+            "pred": "The lamp (highlighted by the blue box) appears to be closer to the camera than the door (highlighted by the red box). This can be inferred from the perspective and depth of field in the image, where the lamp is more sharply focused and occupies a larger portion of the foreground compared to the door, which is further back and less distinct. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": "The chair highlighted by the red box appears to be closer to the camera than the books highlighted by the blue box. The perspective and depth of field in the image suggest that the chair is in the foreground, while the books are further back on the shelf. Therefore, the correct answer is:\n\n(A) chair",
+            "answer": "(A)",
+            "id": 68
+        },
+        {
+            "pred": "The table highlighted by the blue box appears to be closer to the camera than the shelves highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the table is more sharply focused and in clearer view compared to the shelves, which appear slightly blurred and further away. Therefore, the correct answer is:\n\n(B) table",
+            "answer": "(B)",
+            "id": 116
+        },
+        {
+            "pred": "The object closer to the camera in the image is the chair highlighted by the red box. The television highlighted by the blue box appears further away from the camera's perspective. Therefore, the correct answer is:\n\n(A) chair",
+            "answer": "(A)",
+            "id": 125
+        },
+        {
+            "pred": "The chair highlighted by the blue box appears to be closer to the camera than the books highlighted by the red box. This can be inferred from the perspective and depth of field in the image, where the chair is more sharply focused and appears larger relative to the books. Therefore, the correct answer is:\n\n(B) chair",
+            "answer": "(B)",
+            "id": 92
+        }
+    ]
+}

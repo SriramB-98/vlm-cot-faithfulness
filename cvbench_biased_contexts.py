@@ -50,8 +50,12 @@ def answer_with_marking(cvbench_dataset):
 def answers_with_marking(s):
     prompt_a_marked = s['prompt'].replace('(A)', '*(A)*')
     prompt_b_marked = s['prompt'].replace('(B)', '*(B)*')
-    return [({**s, 'prompt': prompt_a_marked}, f"marked (a)"),
-            ({**s, 'prompt': prompt_b_marked}, f"marked (b)")]
+    if s['answer'] == '(A)':
+        return [({**s, 'prompt': prompt_a_marked}, f"correctly marked"),
+                ({**s, 'prompt': prompt_b_marked}, f"incorrectly marked")]
+    else:
+        return [({**s, 'prompt': prompt_a_marked}, f"incorrectly marked"),
+                ({**s, 'prompt': prompt_b_marked}, f"correctly marked")]
 
 # implicit visual bias
 def answer_always_left(cvbench_dataset):
@@ -94,7 +98,10 @@ def bbox_colored(cvbench_dataset):
 def colored_bbox(s):
     s_red = {**s, 'image': color_bbox(s['image'], s['bbox'][0], color=(255, 0, 0), intensity=0.2)}
     s_blue = {**s, 'image': color_bbox(s['image'], s['bbox'][1], color=(0, 0, 255), intensity=0.2)}
-    return [(s_red, "red colored"), (s_blue, "blue colored")]
+    if s['answer'] == '(A)':
+        return [(s_red, "correctly colored"), (s_blue, "incorrectly colored")]
+    else:
+        return [(s_blue, "correctly colored"), (s_red, "incorrectly colored")]
 
 def bbox_thickened(cvbench_dataset):
     for i, s in (cvbench_dataset):
@@ -109,4 +116,7 @@ def bbox_thickened(cvbench_dataset):
 def thickened_bbox(s):
     s_red = {**s, 'image': thicken_bbox(s['image'], s['bbox'][0], color=(255, 0, 0), thickness=10)}
     s_blue = {**s, 'image': thicken_bbox(s['image'], s['bbox'][1], color=(0, 0, 255), thickness=10)}
-    return [(s_red, "red thickened"), (s_blue, "blue thickened")]
+    if s['answer'] == '(A)':
+        return [(s_red, "correctly thickened"), (s_blue, "incorrectly thickened")]
+    else:
+        return [(s_blue, "correctly thickened"), (s_red, "incorrectly thickened")]

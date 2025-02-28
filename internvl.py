@@ -18,9 +18,11 @@ def split_model(model_name):
     world_size = torch.cuda.device_count()
     if world_size == 1:
         return "auto"
-    num_layers = {
+    num_layers_dict = {
         'InternVL2_5-1B': 24, 'InternVL2_5-2B': 24, 'InternVL2_5-4B': 36, 'InternVL2_5-8B': 32,
-        'InternVL2_5-26B': 48, 'InternVL2_5-38B': 64, 'InternVL2_5-78B': 80}[model_name]
+        'InternVL2_5-26B': 48, 'InternVL2_5-38B': 64, 'InternVL2_5-78B': 80, 'InternVL2_5-8B-MPO': 32,
+        'InternVL2_5-26B-MPO': 48, 'InternVL2_5-38B-MPO': 64, 'InternVL2_5-78B-MPO': 80}
+    num_layers = num_layers_dict[model_name]
     # Since the first GPU will be used for ViT, treat it as half a GPU.
     num_layers_per_gpu = math.ceil(num_layers / (world_size - 0.5))
     num_layers_per_gpu = [num_layers_per_gpu] * world_size
@@ -130,8 +132,8 @@ def get_internvl_model_tokenizer(path= 'OpenGVLab/InternVL2_5-1B', use_flash_att
         low_cpu_mem_usage=True,
         use_flash_attn=use_flash_attn,
         trust_remote_code=True,
-        # device_map='auto', #split_model(path.split('/')[-1])
-        ).eval().cuda()
+        device_map=split_model(path.split('/')[-1])
+        ).eval()
     tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True, use_fast=False)
     return model, tokenizer
 
