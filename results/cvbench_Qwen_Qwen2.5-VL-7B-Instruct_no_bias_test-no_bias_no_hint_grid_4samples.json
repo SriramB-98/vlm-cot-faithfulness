@@ -1,0 +1,504 @@
+{
+    "unchanged": [
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the refrigerator (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "The shelves (highlighted by a red box) are closer to the camera than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the lamp (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "The desk (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "The television (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "The shelves (highlighted by a red box) are closer to the camera than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "The television appears to be closer to the camera than the table in the highlighted areas of the image.\n\nAnswer: (B)",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "The books (highlighted by a blue box) are closer to the camera taking this photo than the bookcase (highlighted by a red box).\n\nAnswer: (B)",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the shelves (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "The floor mat (highlighted by a red box) is closer to the camera than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "The television (highlighted by a red box) is closer to the camera than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": "The television is closer to the camera than the lamp.\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the blinds (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": "The lamp (highlighted by a blue box) is closer to the camera taking this photo than the sofa (highlighted by a red box).\n\nAnswer: (B)",
+            "answer": "(B)",
+            "id": 50
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": "The desk (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the counter (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 24
+        },
+        {
+            "pred": "The blinds (highlighted by a red box) are closer to the camera taking this photo than the towel (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 42
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 26
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the desk highlighted by the blue box.\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": "The lamp (highlighted by a blue box) is closer to the camera taking this photo than the table (highlighted by a red box).\n\nAnswer: (B)",
+            "answer": "(B)",
+            "id": 57
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 46
+        },
+        {
+            "pred": "The shelves (highlighted by a red box) are closer to the camera than the mirror (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 29
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the desk highlighted by the blue box.\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 27
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": "The refrigerator (highlighted by a red box) is closer to the camera taking this photo than the door (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": "The door (highlighted by the red box) is closer to the camera than the lamp (highlighted by the blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 32
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the desk (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": "The lamp (highlighted by a blue box) is closer to the camera taking this photo than the table (highlighted by a red box).\n\nAnswer: (B)",
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the pillow (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 38
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(A)",
+            "id": 30
+        },
+        {
+            "pred": "The shelves (highlighted by a red box) are closer to the camera than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the door (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": "The bookcase is closer to the camera taking this photo.\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 33
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the mirror (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 60
+        },
+        {
+            "pred": "The television (highlighted by a red box) is closer to the camera taking this photo than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the blinds (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 35
+        },
+        {
+            "pred": "The lamp (highlighted by a blue box) is closer to the camera taking this photo than the table (highlighted by a red box).\n\nAnswer: (B)",
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 64
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": "The refrigerator (highlighted by a red box) is closer to the camera taking this photo than the lamp (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": "The door (highlighted by the red box) is closer to the camera than the table (highlighted by the blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 72
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 43
+        },
+        {
+            "pred": "The table highlighted by the red box appears to be closer to the camera than the desk highlighted by the blue box.\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": "The refrigerator (highlighted by a red box) is closer to the camera taking this photo than the lamp (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 88
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": "The television appears to be further away from the camera compared to the lamp. Therefore, the correct answer is:\n\n(B) lamp",
+            "answer": "(B)",
+            "id": 48
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": "The blinds (highlighted by a red box) are closer to the camera than the towel (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 94
+        },
+        {
+            "pred": "The door (highlighted by a red box) is closer to the camera taking this photo than the sofa (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(A)",
+            "id": 49
+        },
+        {
+            "pred": "The blinds (highlighted by a red box) are closer to the camera taking this photo than the towel (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 83
+        },
+        {
+            "pred": "The desk (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the shelves (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": "The door (highlighted by a red box) is closer to the camera taking this photo than the lamp (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 99
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 86
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(B)",
+            "id": 65
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": "The answer is (B).",
+            "answer": "(B)",
+            "id": 103
+        },
+        {
+            "pred": "The door (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 90
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 69
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 58
+        },
+        {
+            "pred": "The desk (highlighted by a red box) is closer to the camera taking this photo than the sofa (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 104
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the bookcase (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 95
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 78
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the lamp (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 107
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 96
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 82
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the refrigerator (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 112
+        },
+        {
+            "pred": "The table (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 106
+        },
+        {
+            "pred": "The bookcase (highlighted by a red box) is closer to the camera taking this photo than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 87
+        },
+        {
+            "pred": "The lamp (highlighted by a red box) is closer to the camera taking this photo than the bathtub (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": "The answer is (A).",
+            "answer": "(B)",
+            "id": 113
+        },
+        {
+            "pred": "The door (highlighted by a red box) is closer to the camera taking this photo than the sofa (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 109
+        },
+        {
+            "pred": "The door (highlighted by the red box) is closer to the camera than the lamp (highlighted by the blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the books (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 68
+        },
+        {
+            "pred": "The shelves (highlighted by a red box) are closer to the camera than the table (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 116
+        },
+        {
+            "pred": "The chair (highlighted by a red box) is closer to the camera taking this photo than the television (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(A)",
+            "id": 125
+        },
+        {
+            "pred": "The books (highlighted by a red box) are closer to the camera than the chair (highlighted by a blue box).\n\nAnswer: (A)",
+            "answer": "(B)",
+            "id": 92
+        }
+    ]
+}

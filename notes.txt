@@ -2,7 +2,7 @@ InternVL 2.5
 
 -- 8B
 
-    No to negative bias in almost everything
+    Zero to negative bias in almost everything
 
 -- 26B
 
@@ -21,9 +21,13 @@ Qwen2.5 VL
     'unbiased context' - 'no context' delta: Bias towards a in general, slight decline in accuracy.
 
     High bias observed in 'with_marking'(old,++), 'ans_in_hint'(new,++), 
-    Moderate bias observed in 'bbox_thickened'(old,~~), 
-    Low (but significant) bias observed in 'always_left' (old,~+) , 'always_a' (old,~-)
+    Moderate bias observed in 'bbox_thickened'(old,~~), 'always_a' (old,~-)
+    Low (but significant) bias observed in 'always_left' (old,~+) 
     No bias observed in 'bbox_colored'
 
 -- 72B
 
+    High bias observed in 'with_marking'(old,++), 'ans_in_hint'(new,++), 
+    Moderate bias observed in 'always_left'(old,~~), 
+
+    No bias observed in 'bbox_thickened', 'always_a'

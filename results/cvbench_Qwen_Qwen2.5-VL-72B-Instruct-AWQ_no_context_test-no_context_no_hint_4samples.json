@@ -1,0 +1,504 @@
+{
+    "unchanged": [
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": "(A)",
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The television is positioned further back in the room, near the wall.\n2. The books are on a table that is closer to the foreground of the image.\n\nGiven the perspective, the books appear to be closer to the camera than the television.\n\nTherefore, the correct answer is (B).",
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": "(A) table",
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and relative positions of the objects in the image.\n\n1. The table (highlighted by the red box) is positioned further back in the room, near the bookcase.\n2. The bookcase (highlighted by the blue box) is also positioned further back but appears larger and more prominent in the image due to its size and the angle at which it is viewed.\n\nGiven the perspective, the bookcase appears closer to the camera than the table because it occupies more space in the foreground of the image and is more directly in line with the camera's view.\n\nTherefore, the correct answer is:\n\n(B) bookcase",
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": "(B) table",
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": "(B)",
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": "(A) sofa",
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": "(B)",
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 50
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 24
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The blinds (highlighted by the red box) are located near the window, which is further back in the room.\n2. The towel (highlighted by the blue box) is placed on a table that is closer to the foreground of the image.\n\nGiven the positioning, the towel is closer to the camera than the blinds.\n\n(B)",
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 42
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The bookcase (highlighted by the red box) is positioned further back in the room, near the wall.\n2. The table (highlighted by the blue box) is positioned closer to the foreground, in front of the bookcase.\n\nGiven the perspective, the table appears to be closer to the camera than the bookcase.\n\nTherefore, the correct answer is (B).",
+            "answer": "(B)",
+            "id": 26
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 57
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 46
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 29
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 27
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": "(A)",
+            "answer": "(B)",
+            "id": 32
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": "(B) pillow",
+            "answer": "(B)",
+            "id": 38
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 30
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The bookcase (highlighted by the red box) is positioned further back in the room, closer to the wall.\n2. The table (highlighted by the blue box) is positioned in front of the bookcase, closer to the foreground of the image.\n\nGiven these observations, the table is closer to the camera than the bookcase.\n\n(B)",
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 33
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 60
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The table (highlighted by the red box) is positioned in the foreground of the image, closer to the viewer.\n2. The blinds (highlighted by the blue box) are further back in the image, behind the table and the couch.\n\nGiven this analysis, the table is closer to the camera than the blinds.\n\n(A)",
+            "answer": "(A)",
+            "id": 35
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 64
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The lamp (highlighted by the red box) is hanging from the ceiling and appears to be further back in the room.\n2. The television (highlighted by the blue box) is placed on a stand near the wall and appears to be closer to the foreground of the image.\n\nGiven the perspective, the television is closer to the camera than the lamp.\n\n(B)",
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": "(A) refrigerator",
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": "(A) door",
+            "answer": "(A)",
+            "id": 72
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 43
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": "(A) refrigerator",
+            "answer": "(B)",
+            "id": 88
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 48
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": "(B) towel",
+            "answer": "(B)",
+            "id": 94
+        },
+        {
+            "pred": "(A) door",
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The bookcase (highlighted by the red box) is positioned further back in the room, closer to the wall.\n2. The table (highlighted by the blue box) is positioned in front of the bookcase, closer to the foreground of the image.\n\nGiven the perspective, the table appears to be closer to the camera than the bookcase.\n\nTherefore, the correct answer is (B).",
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 49
+        },
+        {
+            "pred": "(B) towel",
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The table (highlighted by the red box) appears smaller and is positioned further back in the room compared to the bookcase.\n2. The bookcase (highlighted by the blue box) is larger and occupies more space in the foreground of the image, indicating it is closer to the camera.\n\nBased on these observations, the bookcase is closer to the camera.\n\n(B)",
+            "answer": "(A)",
+            "id": 83
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The door (highlighted by the red box) appears to be further back in the room, closer to the wall.\n2. The lamp (highlighted by the blue box) is hanging from the ceiling and appears to be positioned closer to the foreground of the image.\n\nGiven these observations, the lamp is closer to the camera than the door.\n\n(B)",
+            "answer": "(B)",
+            "id": 99
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 86
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 65
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": "(A) door",
+            "answer": "(B)",
+            "id": 103
+        },
+        {
+            "pred": "(A) door",
+            "answer": "(A)",
+            "id": 90
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 69
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 58
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 104
+        },
+        {
+            "pred": "(B)",
+            "answer": "(A)",
+            "id": 95
+        },
+        {
+            "pred": "(A) bookcase",
+            "answer": "(B)",
+            "id": 78
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 107
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 96
+        },
+        {
+            "pred": "To determine which object is closer to the camera, we need to consider the perspective and depth in the image.\n\n1. The bookcase (highlighted by the red box) is positioned further back in the room, near the wall.\n2. The table (highlighted by the blue box) is positioned closer to the foreground, in front of the bookcase.\n\nGiven the perspective, the table appears to be closer to the camera than the bookcase.\n\nTherefore, the correct answer is (B).",
+            "answer": "(B)",
+            "id": 82
+        },
+        {
+            "pred": "(A)",
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 112
+        },
+        {
+            "pred": "(A) table",
+            "answer": "(A)",
+            "id": 106
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 87
+        },
+        {
+            "pred": "(A) lamp",
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 113
+        },
+        {
+            "pred": "(A) door",
+            "answer": "(A)",
+            "id": 109
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 68
+        },
+        {
+            "pred": "(B)",
+            "answer": "(B)",
+            "id": 116
+        },
+        {
+            "pred": "(A) chair",
+            "answer": "(A)",
+            "id": 125
+        },
+        {
+            "pred": "(B) chair",
+            "answer": "(B)",
+            "id": 92
+        }
+    ]
+}
