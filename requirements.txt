@@ -1,3 +1,5 @@
-transformers
 torchvision
 qwen-vl-utils
+git+https://github.com/SriramB-98/lmdeploy.git@my_mods
+git+https://github.com/SriramB-98/vllm.git@my_mods
+git+https://github.com/SriramB-98/transformers.git@my_mods

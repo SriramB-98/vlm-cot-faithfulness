@@ -8,14 +8,14 @@ import numpy as np
 # import torchvision
 from cvbench_biased_contexts import answer_always_a, answer_with_marking, answer_always_left, bbox_colored, bbox_thickened, grid_combine, no_bias
 from cvbench_biased_contexts import switch_order, answers_with_marking, mirror, colored_bbox, thickened_bbox
-from model_utils import get_model_tokenizer
+from model_utils import get_model_tokenizer, get_client
 import torch
 import json
 # from PIL import Image
 from collections import defaultdict
 from tqdm.auto import tqdm
 import argparse
-
+from server_utils import gather_async_results
 
 # %%
 try:
@@ -30,6 +30,8 @@ try:
     parser.add_argument("--randomize_contexts", action='store_true')
     parser.add_argument("--give_hint", action='store_true')
     parser.add_argument("--presentation_mode", type=str, default="separate")
+    parser.add_argument("--server", type=str, default=None)
+    parser.add_argument("--server_batch_size", type=int, default=1)
     parser.add_argument("--scale_factor", type=float, default=1.0)
     parser.add_argument("--remove_explicit_question", action='store_true')
     parser.add_argument("--redo", action='store_true')
@@ -61,6 +63,8 @@ try:
     wrong_examples = args.wrong_examples
     remove_explicit_question = args.remove_explicit_question
     redo = args.redo
+    server = args.server
+    server_batch_size = args.server_batch_size
 except:
     print("No arguments provided, using default values")
     model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
@@ -77,6 +81,8 @@ except:
     total_samples = 100
     wrong_examples = 0
     remove_explicit_question = False
+    server = None
+    server_batch_size = 4
 # Fix all random seeds
 torch.manual_seed(seed)
 np.random.seed(seed)
@@ -96,29 +102,24 @@ cv_bench = [s for s in cv_bench if s['task'] == 'Depth']
 
 if 'InternVL2' in model_name:
     predict_kwargs = {
-        'max_num' : 4 if presentation_mode == 'separate' else 12,
+        'max_num' : max(1, int(12 * scale_factor)),
         'give_reasoning': give_reasoning,
         'remove_explicit_question': remove_explicit_question,
     }
-elif 'QVQ' in model_name:
+elif 'QVQ' in model_name or 'Qwen2.5' in model_name:
     predict_kwargs = {
         'image_kwargs': {
             'do_resize': True,
+            'min_pixels': 28 * 28 * 4,
+            'max_pixels': 28 * 28 * max(4, int(1280 * scale_factor)),
             'size': {'shortest_edge': 28 * 28 * 4, 'longest_edge': 28 * 28 * max(4, int(1280 * scale_factor))},
         },
+        'give_reasoning': give_reasoning and 'QVQ' not in model_name,
         'remove_explicit_question': remove_explicit_question,
     }
-elif 'Qwen2.5' in model_name:
-    predict_kwargs = {
-        # 'min_pixels': 28 * 28 * 4,
-        # 'max_pixels': 28 * 28 * max(4, int(1280 * scale_factor)),
-        'image_kwargs': {
-            'do_resize': True,
-            'size': {'shortest_edge': 28 * 28 * 4, 'longest_edge': 28 * 28 * max(4, int(1280 * scale_factor))},
-        },
-        'give_reasoning': give_reasoning,
-        'remove_explicit_question': remove_explicit_question,
-    }
+elif 'Llama' in model_name and 'cot' in model_name:
+    presentation_mode = 'grid'
+    predict_kwargs = {}
 else:
     predict_kwargs = {}
 
@@ -174,8 +175,11 @@ def get_biased_context(bias_type, num_context_samples, randomize=False, exclude_
 
 
 # %%
-
-model, tokenizer, predict_fn = get_model_tokenizer(model_name, use_flash_attn=True, dtype=torch.bfloat16)
+if server is None:
+    model, tokenizer, predict_fn = get_model_tokenizer(model_name, use_flash_attn=True, dtype=torch.bfloat16)
+else:
+    model, predict_fn = get_client(model_name, backend=server)
+    tokenizer = model_name
 
 # %%
 
@@ -204,7 +208,7 @@ for bias_type in bias_type_list:
         print(f"\t Test bias:{test_bias_type}")
         outputs = defaultdict(list)
 
-        fname = f'results/cvbench_{model_name.replace("/", "_")}_{bias_type}_test-{test_bias_type}_{"hint" if give_hint or bias_type == "ans_in_hint" else "no_hint"}{"_reasoning" if give_reasoning else ""}_{presentation_mode}_{num_context_samples}samples_{total_samples}testsamples_{num_contexts}contexts{description}.json'
+        fname = f'results/cvbench_{model_name.replace("/", "_")}_{bias_type}_test-{test_bias_type}_{"hint" if give_hint or bias_type == "ans_in_hint" else "no_hint"}{"_reasoning" if give_reasoning else ""}_{presentation_mode}_{num_context_samples}samples_{total_samples}testsamples_{num_contexts}contexts_scale-{scale_factor}{description}.json'
         if (not redo) and os.path.exists(fname):
             print(f"Skipping {fname} because it already exists")
             continue
@@ -258,6 +262,12 @@ for bias_type in bias_type_list:
             if num_samples_processed >= total_samples:
                 break
         
+        if server is not None:
+            if bias_type == 'no_context':
+                bs = 4*server_batch_size
+            else:
+                bs = server_batch_size
+            outputs = gather_async_results(outputs, batch_size=bs)
         # outputs['context_indices'] = index_lists
         with open(fname, 'w') as f:
             json.dump(outputs, f)

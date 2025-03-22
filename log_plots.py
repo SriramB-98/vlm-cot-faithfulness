@@ -25,8 +25,8 @@ except:
     # log_name_templates = ["results/cvbench_Qwen_Qwen2.5-VL-7B-Instruct_MODELBIAS_test-TESTBIAS_no_hint_4samples.json", 
                         #   "results/cvbench_Qwen_Qwen2.5-VL-7B-Instruct_MODELBIAS_test-TESTBIAS_no_hint_separate_4samples.json"]
     # log_name_templates = ["results/cvbench_Qwen_Qwen2.5-VL-7B-Instruct_MODELBIAS_test-TESTBIAS_no_hint_separate_4samples_1contexts.json"]
-    model_name = 'Qwen_Qwen2.5-VL-7B-Instruct'
-    reasoning = True
+    model_name = 'OpenGVLab_InternVL2_5-78B-MPO-AWQ' # 'Qwen_Qwen2.5-VL-7B-Instruct'
+    reasoning = False
     log_name_templates = [f"results/cvbench_{model_name}_MODELBIAS_test-TESTBIAS_no_hint_{'reasoning_' if reasoning else ''}separate_8samples_100testsamples_1contexts_scale-0.25.json"]
 # %%
 # Extract the directory and filename pattern from the template

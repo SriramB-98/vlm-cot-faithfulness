@@ -1,0 +1,74 @@
+Fetching 43 files:   0%|          | 0/43 [00:00<?, ?it/s]Fetching 43 files: 100%|██████████| 43/43 [00:00<00:00, 1167.94it/s]
+/cmlscratch/sriramb/anaconda3/envs/mechinterp/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/cmlscratch/sriramb/anaconda3/envs/mechinterp/lib/python3.12/site-packages/accelerate/utils/modeling.py:1589: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(checkpoint_file, map_location=torch.device("cpu"))
+Convert to turbomind format:   0%|          | 0/80 [00:00<?, ?it/s]/cmlscratch/sriramb/anaconda3/envs/mechinterp/lib/python3.12/site-packages/lmdeploy/turbomind/deploy/loader.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  tmp = torch.load(shard, map_location='cpu')
+Convert to turbomind format:   1%|▏         | 1/80 [00:39<51:44, 39.30s/it]Convert to turbomind format:   2%|▎         | 2/80 [00:42<23:29, 18.06s/it]Convert to turbomind format:   4%|▍         | 3/80 [00:42<12:40,  9.88s/it]Convert to turbomind format:   5%|▌         | 4/80 [00:42<07:38,  6.03s/it]Convert to turbomind format:   6%|▋         | 5/80 [00:42<04:52,  3.90s/it]Convert to turbomind format:   8%|▊         | 6/80 [00:46<04:35,  3.73s/it]Convert to turbomind format:   9%|▉         | 7/80 [00:46<03:06,  2.55s/it]Convert to turbomind format:  10%|█         | 8/80 [00:46<02:08,  1.78s/it]Convert to turbomind format:  11%|█▏        | 9/80 [00:46<01:29,  1.26s/it]Convert to turbomind format:  12%|█▎        | 10/80 [00:46<01:04,  1.09it/s]Convert to turbomind format:  14%|█▍        | 11/80 [00:56<04:18,  3.75s/it]Convert to turbomind format:  15%|█▌        | 12/80 [00:57<03:00,  2.65s/it]Convert to turbomind format:  16%|█▋        | 13/80 [00:57<02:06,  1.89s/it]Convert to turbomind format:  18%|█▊        | 14/80 [00:57<01:29,  1.36s/it]Convert to turbomind format:  19%|█▉        | 15/80 [01:01<02:14,  2.07s/it]Convert to turbomind format:  20%|██        | 16/80 [01:01<01:35,  1.49s/it]Convert to turbomind format:  21%|██▏       | 17/80 [01:01<01:08,  1.08s/it]Convert to turbomind format:  22%|██▎       | 18/80 [01:01<00:49,  1.25it/s]Convert to turbomind format:  24%|██▍       | 19/80 [01:05<01:44,  1.70s/it]Convert to turbomind format:  25%|██▌       | 20/80 [01:05<01:14,  1.24s/it]Convert to turbomind format:  26%|██▋       | 21/80 [01:05<00:53,  1.11it/s]Convert to turbomind format:  28%|██▊       | 22/80 [01:05<00:38,  1.49it/s]Convert to turbomind format:  29%|██▉       | 23/80 [01:05<00:29,  1.94it/s]Convert to turbomind format:  30%|███       | 24/80 [01:15<03:02,  3.25s/it]Convert to turbomind format:  31%|███▏      | 25/80 [01:15<02:07,  2.31s/it]Convert to turbomind format:  32%|███▎      | 26/80 [01:15<01:29,  1.66s/it]Convert to turbomind format:  34%|███▍      | 27/80 [01:15<01:03,  1.20s/it]Convert to turbomind format:  35%|███▌      | 28/80 [01:19<01:39,  1.92s/it]Convert to turbomind format:  36%|███▋      | 29/80 [01:19<01:10,  1.38s/it]Convert to turbomind format:  38%|███▊      | 30/80 [01:19<00:50,  1.01s/it]Convert to turbomind format:  39%|███▉      | 31/80 [01:19<00:36,  1.34it/s]Convert to turbomind format:  40%|████      | 32/80 [01:22<01:08,  1.43s/it]Convert to turbomind format:  41%|████▏     | 33/80 [01:23<00:49,  1.04s/it]Convert to turbomind format:  42%|████▎     | 34/80 [01:23<00:35,  1.30it/s]Convert to turbomind format:  44%|████▍     | 35/80 [01:23<00:26,  1.73it/s]Convert to turbomind format:  45%|████▌     | 36/80 [01:23<00:19,  2.23it/s]Convert to turbomind format:  46%|████▋     | 37/80 [01:32<02:06,  2.95s/it]Convert to turbomind format:  48%|████▊     | 38/80 [01:32<01:28,  2.10s/it]Convert to turbomind format:  49%|████▉     | 39/80 [01:32<01:01,  1.51s/it]Convert to turbomind format:  50%|█████     | 40/80 [01:32<00:44,  1.10s/it]Convert to turbomind format:  51%|█████▏    | 41/80 [01:36<01:10,  1.81s/it]Convert to turbomind format:  52%|█████▎    | 42/80 [01:36<00:49,  1.31s/it]Convert to turbomind format:  54%|█████▍    | 43/80 [01:36<00:35,  1.05it/s]Convert to turbomind format:  55%|█████▌    | 44/80 [01:36<00:25,  1.41it/s]Convert to turbomind format:  56%|█████▋    | 45/80 [01:39<00:51,  1.46s/it]Convert to turbomind format:  57%|█████▊    | 46/80 [01:44<01:21,  2.39s/it]Convert to turbomind format:  59%|█████▉    | 47/80 [01:44<00:56,  1.71s/it]Convert to turbomind format:  60%|██████    | 48/80 [01:44<00:40,  1.25s/it]Convert to turbomind format:  61%|██████▏   | 49/80 [01:44<00:28,  1.09it/s]Convert to turbomind format:  62%|██████▎   | 50/80 [01:55<01:54,  3.80s/it]Convert to turbomind format:  64%|██████▍   | 51/80 [01:55<01:18,  2.70s/it]Convert to turbomind format:  65%|██████▌   | 52/80 [01:55<00:53,  1.93s/it]Convert to turbomind format:  66%|██████▋   | 53/80 [01:55<00:37,  1.39s/it]Convert to turbomind format:  68%|██████▊   | 54/80 [01:59<00:52,  2.00s/it]Convert to turbomind format:  69%|██████▉   | 55/80 [01:59<00:36,  1.44s/it]Convert to turbomind format:  70%|███████   | 56/80 [01:59<00:25,  1.05s/it]Convert to turbomind format:  71%|███████▏  | 57/80 [01:59<00:17,  1.28it/s]Convert to turbomind format:  72%|███████▎  | 58/80 [02:01<00:27,  1.25s/it]Convert to turbomind format:  74%|███████▍  | 59/80 [02:02<00:19,  1.09it/s]Convert to turbomind format:  75%|███████▌  | 60/80 [02:02<00:13,  1.47it/s]Convert to turbomind format:  76%|███████▋  | 61/80 [02:02<00:09,  1.93it/s]Convert to turbomind format:  78%|███████▊  | 62/80 [02:02<00:07,  2.45it/s]Convert to turbomind format:  79%|███████▉  | 63/80 [02:11<00:49,  2.91s/it]Convert to turbomind format:  80%|████████  | 64/80 [02:11<00:33,  2.08s/it]Convert to turbomind format:  81%|████████▏ | 65/80 [02:11<00:22,  1.49s/it]Convert to turbomind format:  82%|████████▎ | 66/80 [02:11<00:15,  1.09s/it]Convert to turbomind format:  84%|████████▍ | 67/80 [02:14<00:22,  1.71s/it]Convert to turbomind format:  85%|████████▌ | 68/80 [02:14<00:14,  1.24s/it]Convert to turbomind format:  86%|████████▋ | 69/80 [02:15<00:09,  1.10it/s]Convert to turbomind format:  88%|████████▊ | 70/80 [02:15<00:06,  1.48it/s]Convert to turbomind format:  89%|████████▉ | 71/80 [02:18<00:11,  1.32s/it]Convert to turbomind format:  90%|█████████ | 72/80 [02:18<00:07,  1.04it/s]Convert to turbomind format:  91%|█████████▏| 73/80 [02:18<00:04,  1.40it/s]Convert to turbomind format:  92%|█████████▎| 74/80 [02:18<00:03,  1.85it/s]Convert to turbomind format:  94%|█████████▍| 75/80 [02:18<00:02,  2.37it/s]Convert to turbomind format:  95%|█████████▌| 76/80 [02:28<00:12,  3.22s/it]Convert to turbomind format:  96%|█████████▋| 77/80 [02:28<00:06,  2.30s/it]Convert to turbomind format:  98%|█████████▊| 78/80 [02:28<00:03,  1.65s/it]Convert to turbomind format:  99%|█████████▉| 79/80 [02:28<00:01,  1.19s/it]Convert to turbomind format: 100%|██████████| 80/80 [02:33<00:00,  2.23s/it]                                                                            [WARNING] gemm_config.in is not found; using default GEMM algo
+[WARNING] gemm_config.in is not found; using default GEMM algo
+HINT:    Please open [93m[1mhttp://0.0.0.0:27182[0m in a browser for detailed api usage!!!
+HINT:    Please open [93m[1mhttp://0.0.0.0:27182[0m in a browser for detailed api usage!!!
+HINT:    Please open [93m[1mhttp://0.0.0.0:27182[0m in a browser for detailed api usage!!!
+INFO:     Started server process [141467]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:27182 (Press CTRL+C to quit)
+INFO:     127.0.0.1:39442 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48576 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48576 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48576 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2025-03-21 22:03:38,635 - lmdeploy - [31mERROR[0m - async_engine.py:592 - [safe_run] exception caught: GeneratorExit 
+INFO:     127.0.0.1:48568 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2025-03-21 22:14:29,087 - lmdeploy - [31mERROR[0m - async_engine.py:592 - [safe_run] exception caught: GeneratorExit 
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38708 - "POST /v1/chat/completions HTTP/1.1" 200 OK

@@ -5,12 +5,11 @@ import numpy as np
 
 BBOX_THICKNESS = 30
 
-def grid_combine(sample_to_predict, context_samples, grid_size=(2, 3)):
+def grid_combine(sample_to_predict, context_samples, grid_size=(3, 3)):
     """
     Combines the images in context_samples and sample_to_predict into a single grid.
     Returns a new sample with combined image and prompts.
     """
-    # Calculate grid dimensions
     if len(context_samples) == 0:
         return sample_to_predict
     # Get max dimensions to make all images the same size

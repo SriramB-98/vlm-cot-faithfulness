@@ -9,6 +9,8 @@ from PIL import Image
 from torchvision.transforms.functional import InterpolationMode
 from transformers import AutoModel, AutoTokenizer
 from transformers import DynamicCache
+from lmdeploy import pipeline, TurbomindEngineConfig
+from lmdeploy.vl import load_image
 
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
@@ -21,17 +23,25 @@ def split_model(model_name):
     num_layers_dict = {
         'InternVL2_5-1B': 24, 'InternVL2_5-2B': 24, 'InternVL2_5-4B': 36, 'InternVL2_5-8B': 32,
         'InternVL2_5-26B': 48, 'InternVL2_5-38B': 64, 'InternVL2_5-78B': 80, 'InternVL2_5-8B-MPO': 32,
-        'InternVL2_5-26B-MPO': 48, 'InternVL2_5-38B-MPO': 64, 'InternVL2_5-78B-MPO': 80}
+        'InternVL2_5-26B-MPO': 48, 'InternVL2_5-38B-MPO': 64, 'InternVL2_5-78B-MPO': 80, 'InternVL2_5-78B-MPO-AWQ': 80}
     num_layers = num_layers_dict[model_name]
     # Since the first GPU will be used for ViT, treat it as half a GPU.
-    num_layers_per_gpu = math.ceil(num_layers / (world_size - 0.5))
-    num_layers_per_gpu = [num_layers_per_gpu] * world_size
-    num_layers_per_gpu[0] = math.ceil(num_layers_per_gpu[0] * 0.5)
+    
+    if '78B' in model_name:
+        num_layers_per_gpu = math.ceil(num_layers / (world_size))
+        num_layers_per_gpu = [num_layers_per_gpu] * world_size
+    else:
+        num_layers_per_gpu = math.ceil(num_layers / (world_size - 0.5))
+        num_layers_per_gpu = [num_layers_per_gpu] * world_size
+        num_layers_per_gpu[0] = math.ceil(num_layers_per_gpu[0] * 0.5)
+    print("num_layers_per_gpu", num_layers_per_gpu)
+
     layer_cnt = 0
     for i, num_layer in enumerate(num_layers_per_gpu):
         for j in range(num_layer):
             device_map[f'language_model.model.layers.{layer_cnt}'] = i
             layer_cnt += 1
+    
     device_map['vision_model'] = 0
     device_map['mlp1'] = 0
     device_map['language_model.model.tok_embeddings'] = 0
@@ -140,3 +150,8 @@ def get_internvl_model_tokenizer(path= 'OpenGVLab/InternVL2_5-1B', use_flash_att
 def internvl_preprocess(pil_image, max_num=12, dtype=torch.float32):
     pixels, num_patches = load_image(pil_image, max_num=max_num)
     return pixels.to(dtype).cuda(), num_patches
+
+def get_internvl_pipeline(model_name, *args, **kwargs):
+    num_gpus = torch.cuda.device_count()
+    pipe = pipeline(model_name, backend_config=TurbomindEngineConfig(session_len=8192, tp=num_gpus))
+    return pipe

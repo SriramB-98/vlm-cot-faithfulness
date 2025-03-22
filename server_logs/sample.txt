@@ -1,0 +1,515 @@
+INFO 03-18 18:09:53 __init__.py:207] Automatically detected platform cuda.
+INFO 03-18 18:09:53 api_server.py:912] vLLM API server version 0.7.3
+INFO 03-18 18:09:53 api_server.py:913] args: Namespace(subparser='serve', model_tag='Qwen/Qwen2.5-VL-3B-Instruct', config='', host=None, port=27182, uvicorn_log_level='info', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_key=None, lora_modules=None, prompt_adapters=None, chat_template=None, chat_template_content_format='auto', response_role='assistant', ssl_keyfile=None, ssl_certfile=None, ssl_ca_certs=None, ssl_cert_reqs=0, root_path=None, middleware=[], return_tokens_as_token_ids=False, disable_frontend_multiprocessing=False, enable_request_id_headers=False, enable_auto_tool_choice=False, enable_reasoning=False, reasoning_parser=None, tool_call_parser=None, tool_parser_plugin='', model='Qwen/Qwen2.5-VL-3B-Instruct', task='auto', tokenizer=None, skip_tokenizer_init=False, revision=None, code_revision=None, tokenizer_revision=None, tokenizer_mode='auto', trust_remote_code=False, allowed_local_media_path=None, download_dir=None, load_format='auto', config_format=<ConfigFormat.AUTO: 'auto'>, dtype='auto', kv_cache_dtype='auto', max_model_len=32768, guided_decoding_backend='xgrammar', logits_processor_pattern=None, model_impl='auto', distributed_executor_backend=None, pipeline_parallel_size=1, tensor_parallel_size=2, max_parallel_loading_workers=None, ray_workers_use_nsight=False, block_size=None, enable_prefix_caching=None, disable_sliding_window=False, use_v2_block_manager=True, num_lookahead_slots=0, seed=0, swap_space=4, cpu_offload_gb=0, gpu_memory_utilization=0.9, num_gpu_blocks_override=None, max_num_batched_tokens=None, max_num_partial_prefills=1, max_long_partial_prefills=1, long_prefill_token_threshold=0, max_num_seqs=None, max_logprobs=20, disable_log_stats=False, quantization=None, rope_scaling=None, rope_theta=None, hf_overrides=None, enforce_eager=False, max_seq_len_to_capture=8192, disable_custom_all_reduce=False, tokenizer_pool_size=0, tokenizer_pool_type='ray', tokenizer_pool_extra_config=None, limit_mm_per_prompt={'image': 9}, mm_processor_kwargs={'images_kwargs.do_resize': True, 'images_kwargs.do_rescale': False, 'images_kwargs.size.shortest_edge': 3136, 'images_kwargs.size.longest_edge': 250880}, disable_mm_preprocessor_cache=False, enable_lora=False, enable_lora_bias=False, max_loras=1, max_lora_rank=16, lora_extra_vocab_size=256, lora_dtype='auto', long_lora_scaling_factors=None, max_cpu_loras=None, fully_sharded_loras=False, enable_prompt_adapter=False, max_prompt_adapters=1, max_prompt_adapter_token=0, device='auto', num_scheduler_steps=1, multi_step_stream_outputs=True, scheduler_delay_factor=0.0, enable_chunked_prefill=None, speculative_model=None, speculative_model_quantization=None, num_speculative_tokens=None, speculative_disable_mqa_scorer=False, speculative_draft_tensor_parallel_size=None, speculative_max_model_len=None, speculative_disable_by_batch_size=None, ngram_prompt_lookup_max=None, ngram_prompt_lookup_min=None, spec_decoding_acceptance_method='rejection_sampler', typical_acceptance_sampler_posterior_threshold=None, typical_acceptance_sampler_posterior_alpha=None, disable_logprobs_during_spec_decoding=None, model_loader_extra_config=None, ignore_patterns=[], preemption_mode=None, served_model_name=None, qlora_adapter_name_or_path=None, otlp_traces_endpoint=None, collect_detailed_traces=None, disable_async_output_proc=False, scheduling_policy='fcfs', scheduler_cls='vllm.core.scheduler.Scheduler', override_neuron_config=None, override_pooler_config=None, compilation_config=None, kv_transfer_config=None, worker_cls='auto', generation_config=None, override_generation_config=None, enable_sleep_mode=False, calculate_kv_scales=False, additional_config=None, disable_log_requests=False, max_log_len=None, disable_fastapi_docs=False, enable_prompt_tokens_details=False, dispatch_function=<function ServeSubcommand.cmd at 0x7f653ca35f80>)
+INFO 03-18 18:09:53 api_server.py:209] Started engine process with PID 1157865
+INFO 03-18 18:10:03 __init__.py:207] Automatically detected platform cuda.
+INFO 03-18 18:10:06 config.py:549] This model supports multiple tasks: {'embed', 'generate', 'reward', 'classify', 'score'}. Defaulting to 'generate'.
+INFO 03-18 18:10:06 config.py:1382] Defaulting to use mp for distributed inference
+INFO 03-18 18:10:12 config.py:549] This model supports multiple tasks: {'reward', 'generate', 'embed', 'classify', 'score'}. Defaulting to 'generate'.
+INFO 03-18 18:10:12 config.py:1382] Defaulting to use mp for distributed inference
+INFO 03-18 18:10:12 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.3) with config: model='Qwen/Qwen2.5-VL-3B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-VL-3B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=2, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=Qwen/Qwen2.5-VL-3B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=False, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs={'images_kwargs.do_resize': True, 'images_kwargs.do_rescale': False, 'images_kwargs.size.shortest_edge': 3136, 'images_kwargs.size.longest_edge': 250880}, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=True, 
+WARNING 03-18 18:10:12 multiproc_worker_utils.py:300] Reducing Torch parallelism from 4 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+INFO 03-18 18:10:12 custom_cache_manager.py:19] Setting Triton cache manager to: vllm.triton_utils.custom_cache_manager:CustomCacheManager
+INFO 03-18 18:10:14 cuda.py:229] Using Flash Attention backend.
+INFO 03-18 18:10:19 __init__.py:207] Automatically detected platform cuda.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:19 multiproc_worker_utils.py:229] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:20 cuda.py:229] Using Flash Attention backend.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 utils.py:916] Found nccl from library libnccl.so.2
+INFO 03-18 18:10:21 utils.py:916] Found nccl from library libnccl.so.2
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 pynccl.py:69] vLLM is using nccl==2.21.5
+INFO 03-18 18:10:21 pynccl.py:69] vLLM is using nccl==2.21.5
+INFO 03-18 18:10:21 custom_all_reduce_utils.py:244] reading GPU P2P access cache from /nfshomes/sriramb/.cache/vllm/gpu_p2p_access_cache_for_0,1.json
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 custom_all_reduce_utils.py:244] reading GPU P2P access cache from /nfshomes/sriramb/.cache/vllm/gpu_p2p_access_cache_for_0,1.json
+INFO 03-18 18:10:21 shm_broadcast.py:258] vLLM message queue communication handle: Handle(connect_ip='127.0.0.1', local_reader_ranks=[1], buffer_handle=(1, 4194304, 6, 'psm_5cf2d4b7'), local_subscribe_port=47591, remote_subscribe_port=None)
+INFO 03-18 18:10:21 model_runner.py:1110] Starting to load model Qwen/Qwen2.5-VL-3B-Instruct...
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 model_runner.py:1110] Starting to load model Qwen/Qwen2.5-VL-3B-Instruct...
+INFO 03-18 18:10:21 config.py:3054] cudagraph sizes specified by model runner [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256] is overridden by config [256, 128, 2, 1, 4, 136, 8, 144, 16, 152, 24, 160, 32, 168, 40, 176, 48, 184, 56, 192, 64, 200, 72, 208, 80, 216, 88, 120, 224, 96, 232, 104, 240, 112, 248]
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 config.py:3054] cudagraph sizes specified by model runner [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256] is overridden by config [256, 128, 2, 1, 4, 136, 8, 144, 16, 152, 24, 160, 32, 168, 40, 176, 48, 184, 56, 192, 64, 200, 72, 208, 80, 216, 88, 120, 224, 96, 232, 104, 240, 112, 248]
+INFO 03-18 18:10:21 weight_utils.py:254] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:21 weight_utils.py:254] Using model weights format ['*.safetensors']
+
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  2.63it/s]
+
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:00<00:00,  2.53it/s]
+
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:00<00:00,  2.54it/s]
+
+INFO 03-18 18:10:23 model_runner.py:1115] Loading model weights took 3.6665 GB
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:23 model_runner.py:1115] Loading model weights took 3.6665 GB
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m WARNING 03-18 18:10:23 model_runner.py:1288] Computed max_num_seqs (min(256, 32768 // 163840)) to be less than 1. Setting it to the minimum value of 1.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+WARNING 03-18 18:10:24 model_runner.py:1288] Computed max_num_seqs (min(256, 32768 // 163840)) to be less than 1. Setting it to the minimum value of 1.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Keyword argument `images_kwargs.do_resize` is not a valid argument for this processor and will be ignored.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Keyword argument `images_kwargs.do_rescale` is not a valid argument for this processor and will be ignored.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Keyword argument `images_kwargs.size.shortest_edge` is not a valid argument for this processor and will be ignored.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Keyword argument `images_kwargs.size.longest_edge` is not a valid argument for this processor and will be ignored.
+Keyword argument `images_kwargs.do_resize` is not a valid argument for this processor and will be ignored.
+Keyword argument `images_kwargs.do_rescale` is not a valid argument for this processor and will be ignored.
+Keyword argument `images_kwargs.size.shortest_edge` is not a valid argument for this processor and will be ignored.
+Keyword argument `images_kwargs.size.longest_edge` is not a valid argument for this processor and will be ignored.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m It looks like you are trying to rescale already rescaled images. If the input images have pixel values between 0 and 1, set `do_rescale=False` to avoid rescaling them again.
+It looks like you are trying to rescale already rescaled images. If the input images have pixel values between 0 and 1, set `do_rescale=False` to avoid rescaling them again.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m Token indices sequence length is longer than the specified maximum sequence length for this model (163840 > 131072). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (163840 > 131072). Running this sequence through the model will result in indexing errors
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m WARNING 03-18 18:10:35 profiling.py:192] The context length (32768) of the model is too short to hold the multi-modal embeddings in the worst case (163840 tokens in total, out of which {'image': 147456, 'video': 16384} are reserved for multi-modal embeddings). This may cause certain multi-modal inputs to fail during inference, even when the input text is short. To avoid this, you should increase `max_model_len`, reduce `max_num_seqs`, and/or reduce `mm_counts`.
+WARNING 03-18 18:10:35 profiling.py:192] The context length (32768) of the model is too short to hold the multi-modal embeddings in the worst case (163840 tokens in total, out of which {'image': 147456, 'video': 16384} are reserved for multi-modal embeddings). This may cause certain multi-modal inputs to fail during inference, even when the input text is short. To avoid this, you should increase `max_model_len`, reduce `max_num_seqs`, and/or reduce `mm_counts`.
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32768])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:42 worker.py:267] Memory profiling takes 19.50 seconds
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:42 worker.py:267] the current vLLM instance can use total_gpu_memory (15.72GiB) x gpu_memory_utilization (0.90) = 14.15GiB
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:42 worker.py:267] model weights take 3.67GiB; non_torch_memory takes 0.28GiB; PyTorch activation peak memory takes 1.64GiB; the rest of the memory reserved for KV Cache is 8.57GiB.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32768])
+INFO 03-18 18:10:42 worker.py:267] Memory profiling takes 19.53 seconds
+INFO 03-18 18:10:42 worker.py:267] the current vLLM instance can use total_gpu_memory (15.72GiB) x gpu_memory_utilization (0.90) = 14.15GiB
+INFO 03-18 18:10:42 worker.py:267] model weights take 3.67GiB; non_torch_memory takes 0.29GiB; PyTorch activation peak memory takes 1.64GiB; the rest of the memory reserved for KV Cache is 8.55GiB.
+INFO 03-18 18:10:43 executor_base.py:111] # cuda blocks: 31133, # CPU blocks: 14563
+INFO 03-18 18:10:43 executor_base.py:116] Maximum concurrency for 32768 tokens per request: 15.20x
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:10:45 model_runner.py:1434] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 03-18 18:10:45 model_runner.py:1434] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]
+Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:00<00:18,  1.87it/s]
+Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:01<00:17,  1.90it/s]
+Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:01<00:16,  1.90it/s]
+Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:02<00:16,  1.88it/s]
+Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:02<00:15,  1.90it/s]
+Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:03<00:15,  1.92it/s]
+Capturing CUDA graph shapes:  20%|██        | 7/35 [00:03<00:14,  1.92it/s]
+Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:04<00:14,  1.92it/s]
+Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:04<00:13,  1.91it/s]
+Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:05<00:13,  1.91it/s]
+Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:07<00:25,  1.06s/it]
+Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:08<00:20,  1.11it/s]
+Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:08<00:17,  1.27it/s]
+Capturing CUDA graph shapes:  40%|████      | 14/35 [00:09<00:14,  1.42it/s]
+Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:09<00:12,  1.54it/s]
+Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:10<00:11,  1.61it/s]
+Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:10<00:10,  1.68it/s]
+Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:11<00:10,  1.69it/s]
+Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:11<00:09,  1.76it/s]
+Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:12<00:08,  1.81it/s]
+Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:12<00:07,  1.84it/s]
+Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:13<00:06,  1.87it/s]
+Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:13<00:06,  1.88it/s]
+Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:14<00:05,  1.87it/s]
+Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:14<00:05,  1.88it/s]
+Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:15<00:04,  1.90it/s]
+Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:15<00:04,  1.90it/s]
+Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:16<00:03,  1.90it/s]
+Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:17<00:03,  1.92it/s]
+Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:17<00:02,  1.93it/s]
+Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:18<00:02,  1.95it/s][1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:11:03 custom_all_reduce.py:226] Registering 2555 cuda graph addresses
+
+Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:18<00:01,  1.96it/s]
+Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:19<00:01,  1.99it/s]
+Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:19<00:00,  2.01it/s]
+Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:20<00:00,  1.64it/s]
+Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:20<00:00,  1.72it/s]
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([256])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([248])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([240])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([232])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([224])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([216])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([208])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([200])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([192])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([184])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([176])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([168])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([160])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([152])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([144])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([136])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([128])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([120])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([112])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([104])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([96])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([88])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([80])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([72])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([64])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([56])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([48])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([40])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([32])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([24])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([16])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([4])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1])
+INFO 03-18 18:11:05 custom_all_reduce.py:226] Registering 2555 cuda graph addresses
+[1;36m(VllmWorkerProcess pid=1158006)[0;0m INFO 03-18 18:11:05 model_runner.py:1562] Graph capturing finished in 20 secs, took 0.40 GiB
+INFO 03-18 18:11:05 model_runner.py:1562] Graph capturing finished in 20 secs, took 0.40 GiB
+INFO 03-18 18:11:05 llm_engine.py:436] init engine (profile, create kv cache, warmup model) took 42.74 seconds
+INFO 03-18 18:11:06 api_server.py:958] Starting vLLM API server on http://0.0.0.0:27182
+INFO 03-18 18:11:06 launcher.py:23] Available routes are:
+INFO 03-18 18:11:06 launcher.py:31] Route: /openapi.json, Methods: HEAD, GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /docs, Methods: HEAD, GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /docs/oauth2-redirect, Methods: HEAD, GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /redoc, Methods: HEAD, GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /health, Methods: GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /ping, Methods: POST, GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /tokenize, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /detokenize, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/models, Methods: GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /version, Methods: GET
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/chat/completions, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/completions, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/embeddings, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /pooling, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /score, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/score, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/audio/transcriptions, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /rerank, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v1/rerank, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /v2/rerank, Methods: POST
+INFO 03-18 18:11:06 launcher.py:31] Route: /invocations, Methods: POST
+INFO:     Started server process [1157818]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO 03-18 18:12:45 chat_utils.py:332] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-099f9f3b5671448fa5a61659635463c6: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the pillow (highlighted by a red box) or the desk (highlighted by a blue box)?\n(A) pillow\n(B) desk\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-6b327e2a02bf4ad2b13808426c50c326: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the desk (highlighted by a red box) or the chair (highlighted by a blue box)?\n(A) desk\n(B) chair\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-05cd3485166a4639832e2e1b38b0ce43: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the table (highlighted by a red box) or the bookcase (highlighted by a blue box)?\n(A) table\n(B) bookcase\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-3e42abfafa214eeb8b5d9c722b426523: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the door (highlighted by a red box) or the lamp (highlighted by a blue box)?\n(A) door\n(B) lamp\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-4adc869771f24188a4404cdf10a5398f: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the lamp (highlighted by a red box) or the blinds (highlighted by a blue box)?\n(A) lamp\n(B) blinds\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-47315baa1315477dba351c9771c1437b: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the door (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) door\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-3d4d1a4741874e4dbc6641ff20481df1: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the door (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) door\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:45 logger.py:39] Received request chatcmpl-5ac9672469df4baebef3d76ac056c2d6: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the television (highlighted by a red box) or the sofa (highlighted by a blue box)?\n(A) television\n(B) sofa\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 42325, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 18010, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 42325, 198, 5349, 8, 18010, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BC8C0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-099f9f3b5671448fa5a61659635463c6 None None
+In multimodal data branch
+WARNING 03-18 18:12:49 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:49 engine.py:280] Added request chatcmpl-099f9f3b5671448fa5a61659635463c6.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 18010, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 10496, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 18010, 198, 5349, 8, 10496, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68DD3BB800>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-6b327e2a02bf4ad2b13808426c50c326 None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-6b327e2a02bf4ad2b13808426c50c326.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 1965, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 2311, 5638, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 1965, 198, 5349, 8, 2311, 5638, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BEC30>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-05cd3485166a4639832e2e1b38b0ce43 None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-05cd3485166a4639832e2e1b38b0ce43.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6006, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 27962, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6006, 198, 5349, 8, 27962, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BEEA0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-3e42abfafa214eeb8b5d9c722b426523 None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-3e42abfafa214eeb8b5d9c722b426523.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 27962, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 66061, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 27962, 198, 5349, 8, 66061, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BF140>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-4adc869771f24188a4404cdf10a5398f None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-4adc869771f24188a4404cdf10a5398f.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6006, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6006, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BF470>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-47315baa1315477dba351c9771c1437b None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-47315baa1315477dba351c9771c1437b.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6006, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6006, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BF710>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-3d4d1a4741874e4dbc6641ff20481df1 None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-3d4d1a4741874e4dbc6641ff20481df1.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 12425, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 31069, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 12425, 198, 5349, 8, 31069, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C7827590>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-5ac9672469df4baebef3d76ac056c2d6 None None
+In multimodal data branch
+WARNING 03-18 18:12:50 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:50 engine.py:280] Added request chatcmpl-5ac9672469df4baebef3d76ac056c2d6.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([8602])
+INFO 03-18 18:12:53 metrics.py:455] Avg prompt throughput: 515.2 tokens/s, Avg generation throughput: 0.5 tokens/s, Running: 8 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 1.7%, CPU KV cache usage: 0.0%.
+INFO:     127.0.0.1:48444 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48446 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48418 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48430 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48458 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48464 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48460 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48468 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO 03-18 18:12:53 logger.py:39] Received request chatcmpl-cc48c1a5df8049dca95baa8f3a7bc17a: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the books (highlighted by a red box) or the bookcase (highlighted by a blue box)?\n(A) books\n(B) bookcase\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6467, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 2311, 5638, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6467, 198, 5349, 8, 2311, 5638, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F6A1BF08E30>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-cc48c1a5df8049dca95baa8f3a7bc17a None None
+In multimodal data branch
+WARNING 03-18 18:12:53 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:53 engine.py:280] Added request chatcmpl-cc48c1a5df8049dca95baa8f3a7bc17a.
+INFO:     127.0.0.1:48446 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO 03-18 18:12:54 logger.py:39] Received request chatcmpl-56d1048e47974b34b08d6734b0c51a02: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the sink (highlighted by a red box) or the pillow (highlighted by a blue box)?\n(A) sink\n(B) pillow\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:54 logger.py:39] Received request chatcmpl-bdd0c196061b4aec86f79fb9b10b8951: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the table (highlighted by a red box) or the television (highlighted by a blue box)?\n(A) table\n(B) television\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1077])
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 19309, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 42325, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 19309, 198, 5349, 8, 42325, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78BC860>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-56d1048e47974b34b08d6734b0c51a02 None None
+In multimodal data branch
+WARNING 03-18 18:12:54 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:54 engine.py:280] Added request chatcmpl-56d1048e47974b34b08d6734b0c51a02.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 1965, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 12425, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 1965, 198, 5349, 8, 12425, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C4410>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-bdd0c196061b4aec86f79fb9b10b8951 None None
+In multimodal data branch
+WARNING 03-18 18:12:54 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:54 engine.py:280] Added request chatcmpl-bdd0c196061b4aec86f79fb9b10b8951.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-ad396c33eb4b403298f3dc1a97873b17: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the door (highlighted by a red box) or the pillow (highlighted by a blue box)?\n(A) door\n(B) pillow\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-9d22d56d6dd240d6986f190daa57f557: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the refrigerator (highlighted by a red box) or the door (highlighted by a blue box)?\n(A) refrigerator\n(B) door\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-f122cddacd044c0385a24d2444cf8a6c: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the desk (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) desk\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-0d3aa61e32ad4448bd38a4ee0f1b5be5: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the lamp (highlighted by a red box) or the refrigerator (highlighted by a blue box)?\n(A) lamp\n(B) refrigerator\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-937ef6b2d1a5447984f05270f6b4619c: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the books (highlighted by a red box) or the lamp (highlighted by a blue box)?\n(A) books\n(B) lamp\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:55 logger.py:39] Received request chatcmpl-36e4afb3508d4086be6b89e27e89a08d: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the chair (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) chair\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([2150])
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6006, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 42325, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6006, 198, 5349, 8, 42325, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68BC7BEC60>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-ad396c33eb4b403298f3dc1a97873b17 None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-ad396c33eb4b403298f3dc1a97873b17.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 44944, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6006, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 44944, 198, 5349, 8, 6006, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C54C0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-9d22d56d6dd240d6986f190daa57f557 None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-9d22d56d6dd240d6986f190daa57f557.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 18010, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 18010, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C56A0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-f122cddacd044c0385a24d2444cf8a6c None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-f122cddacd044c0385a24d2444cf8a6c.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 27962, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 44944, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 27962, 198, 5349, 8, 44944, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C5850>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-0d3aa61e32ad4448bd38a4ee0f1b5be5 None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-0d3aa61e32ad4448bd38a4ee0f1b5be5.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6467, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 27962, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6467, 198, 5349, 8, 27962, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C5B20>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-937ef6b2d1a5447984f05270f6b4619c None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-937ef6b2d1a5447984f05270f6b4619c.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 10496, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 10496, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68BC75E570>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-36e4afb3508d4086be6b89e27e89a08d None None
+In multimodal data branch
+WARNING 03-18 18:12:55 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:55 engine.py:280] Added request chatcmpl-36e4afb3508d4086be6b89e27e89a08d.
+INFO:     127.0.0.1:48418 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48460 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48444 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48430 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48446 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48458 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48464 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48468 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO 03-18 18:12:57 logger.py:39] Received request chatcmpl-229bb62d8e57460295ebbb5abca67012: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the door (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) door\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([6450])
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 6006, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 6006, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C7803A70>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-229bb62d8e57460295ebbb5abca67012 None None
+In multimodal data branch
+WARNING 03-18 18:12:57 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:57 engine.py:280] Added request chatcmpl-229bb62d8e57460295ebbb5abca67012.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1075])
+INFO 03-18 18:12:58 metrics.py:455] Avg prompt throughput: 2111.2 tokens/s, Avg generation throughput: 7.9 tokens/s, Running: 1 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.2%, CPU KV cache usage: 0.0%.
+INFO:     127.0.0.1:48418 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-66c894ebd90a49f2b89c91308dc59625: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the table (highlighted by a red box) or the door (highlighted by a blue box)?\n(A) table\n(B) door\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 1965, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6006, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 1965, 198, 5349, 8, 6006, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68DDF49250>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-66c894ebd90a49f2b89c91308dc59625 None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-66c894ebd90a49f2b89c91308dc59625.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-aa1d56986af94de6b8f3c4b14be2edc5: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the bookcase (highlighted by a red box) or the table (highlighted by a blue box)?\n(A) bookcase\n(B) table\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-939effa798c440e39ed06b70b43e3b20: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the chair (highlighted by a red box) or the bookcase (highlighted by a blue box)?\n(A) chair\n(B) bookcase\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-e8f06229672041e1b191889c3109cd16: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the shelves (highlighted by a red box) or the television (highlighted by a blue box)?\n(A) shelves\n(B) television\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-0ec993806db64dca91325e41ffcaac1a: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the table (highlighted by a red box) or the bookcase (highlighted by a blue box)?\n(A) table\n(B) bookcase\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-eb336a89a16241079e28209e644ac77a: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the television (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) television\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+INFO 03-18 18:12:59 logger.py:39] Received request chatcmpl-4f2051a7d6fc4a4f8b99f2822d66b599: prompt: '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQuestion:\nWhich object is closer to the camera taking this photo, the bookcase (highlighted by a red box) or the books (highlighted by a blue box)?\n(A) bookcase\n(B) books\nEnd your answer with either (A) or (B).<|im_end|>\n<|im_start|>assistant\n', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1024, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None), prompt_token_ids: None, lora_request: None, prompt_adapter_request: None.
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([1075])
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 2311, 5638, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 1965, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 2311, 5638, 198, 5349, 8, 1965, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68BC7A2060>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-aa1d56986af94de6b8f3c4b14be2edc5 None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-aa1d56986af94de6b8f3c4b14be2edc5.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 10496, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 2311, 5638, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 10496, 198, 5349, 8, 2311, 5638, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78F1940>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-939effa798c440e39ed06b70b43e3b20 None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-939effa798c440e39ed06b70b43e3b20.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 35210, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 12425, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 35210, 198, 5349, 8, 12425, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78F22D0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-e8f06229672041e1b191889c3109cd16 None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-e8f06229672041e1b191889c3109cd16.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 1965, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 2311, 5638, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 1965, 198, 5349, 8, 2311, 5638, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78F27B0>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-0ec993806db64dca91325e41ffcaac1a None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-0ec993806db64dca91325e41ffcaac1a.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 12425, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 12425, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C77C7140>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-eb336a89a16241079e28209e644ac77a None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-eb336a89a16241079e28209e644ac77a.
+In LLMEngine.add_request {'prompt_token_ids': [151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 151652, 151655, 151653, 198, 14582, 510, 23085, 1633, 374, 12128, 311, 279, 6249, 4633, 419, 6548, 11, 279, 2311, 5638, 320, 35198, 291, 553, 264, 2518, 3745, 8, 476, 279, 6467, 320, 35198, 291, 553, 264, 6303, 3745, 86427, 4346, 8, 2311, 5638, 198, 5349, 8, 6467, 198, 3727, 697, 4226, 448, 2987, 320, 32, 8, 476, 320, 33, 568, 151645, 198, 151644, 77091, 198], 'multi_modal_data': {'image': [<PIL.Image.Image image mode=RGB size=1024x768 at 0x7F68C78F2F60>]}, 'mm_processor_kwargs': {'images_kwargs': {'do_resize': True, 'do_rescale': False, 'size': {'shortest_edge': 3136, 'longest_edge': 250880}}}} chatcmpl-4f2051a7d6fc4a4f8b99f2822d66b599 None None
+In multimodal data branch
+WARNING 03-18 18:12:59 utils.py:1446] The following intended overrides are not keyword-only args and and will be dropped: {'images_kwargs.do_resize', 'images_kwargs.size.shortest_edge', 'images_kwargs.do_rescale', 'images_kwargs.size.longest_edge'}
+INFO 03-18 18:12:59 engine.py:280] Added request chatcmpl-4f2051a7d6fc4a4f8b99f2822d66b599.
+INFO:     127.0.0.1:48444 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48458 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48460 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48418 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48446 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48430 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48464 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+In Qwen2_5_VLForConditionalGeneration.forward (model_executor) torch.Size([6458])
+INFO 03-18 18:13:11 metrics.py:455] Avg prompt throughput: 570.7 tokens/s, Avg generation throughput: 1.6 tokens/s, Running: 0 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.0%, CPU KV cache usage: 0.0%.
+INFO 03-18 18:13:21 metrics.py:455] Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 0.0 tokens/s, Running: 0 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.0%, CPU KV cache usage: 0.0%.
+/cmlscratch/sriramb/anaconda3/envs/mechinterp/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 8 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/cmlscratch/sriramb/anaconda3/envs/mechinterp/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
