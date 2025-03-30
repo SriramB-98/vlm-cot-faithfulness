@@ -1,0 +1,2006 @@
+{
+    "answer (A)": [
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Pillow (highlighted by a red box)**: This object is located on the floor near the dining area. It appears to be relatively close to the camera.\n2. **Desk (highlighted by a blue box)**: This object is further back in the room, likely near the kitchen counter. It appears smaller and less detailed compared to the pillow.\n\nGiven that the pillow is closer to the camera, the correct answer is:\n\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects that are closer appear larger in the image.\n\n1. **Desk (Red Box)**: The desk appears smaller compared to the chairs.\n2. **Chair (Blue Box)**: The chairs appear larger compared to the desk.\n\nGiven that the chairs are larger in the image, they must be closer to the camera than the desk.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located in the foreground of the image.\n2. **Bookcase (highlighted by a blue box)**: This object is located further back in the room.\n\nGiven that the table appears closer due to its larger size and more detailed appearance, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located near the center of the image and appears to be relatively close to the viewer.\n2. **Lamp (highlighted by a blue box)**: This object is located higher up on the wall and appears smaller and less detailed compared to the door.\n\nGiven that the door is closer to the camera, it will appear larger and more detailed in the image.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The lamp is highlighted by a red box, and it appears smaller in the image compared to the blinds, which are highlighted by a blue box.\n\nIn photography, objects that are farther away appear smaller in the frame than those that are closer. Therefore, the object that appears larger and more detailed in the image is likely closer to the camera.\n\nGiven this reasoning, the lamp (highlighted by the red box) is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the room, as it is not immediately visible from the current viewpoint.\n2. **Books (highlighted by a blue box)**: These objects are placed on a surface that appears closer to the viewer, making them look larger and more prominent.\n\nGiven this analysis, the books are closer to the camera than the door.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The door is framed within a red box, indicating it is further away from the camera. The books are framed within a blue box, suggesting they are closer to the camera.\n\nTherefore, the answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (Red Box)**: The television is located further back in the room, as it is positioned against the wall and not directly in front of the viewer.\n2. **Sofa (Blue Box)**: The sofa is closer to the viewer, as it is placed in the foreground of the room and appears larger than the television.\n\nGiven that the sofa is closer to the camera, the correct answer is:\n\n(A) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Books (highlighted by a red box)**: These are on the coffee table, which is closer to the viewer.\n2. **Bookcase (highlighted by a blue box)**: This is further back in the room, behind the desk and chair.\n\nGiven that the books are on the coffee table and are closer to the viewer, they are likely to be closer to the camera than the bookcase.\n\nTherefore, the answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The pillow is highlighted by a blue box, indicating it is in the foreground, while the sink is highlighted by a red box, suggesting it is further back in the room.\n\nGiven that the pillow is closer to the camera, the correct answer is:\n\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table**: The table is highlighted by a red box. It appears to be in the foreground of the image.\n2. **Television**: The television is highlighted by a blue box. It is located further back in the room, behind the table.\n\nGiven that the table is closer to the camera, it is the object that appears larger and more detailed in the image.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the image.\n2. **Pillow (highlighted by a blue box)**: This object is located closer to the foreground.\n\nGiven that the pillow appears larger and more detailed, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a red box)**: This object is hanging from the ceiling and appears smaller in the image.\n2. **Refrigerator (highlighted by a blue box)**: This object is placed on the countertop and appears larger and more detailed than the lamp.\n\nGiven that the refrigerator is placed on the countertop and appears larger and more detailed, it is likely closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a red box)**: This object is located further back in the room.\n2. **Books (highlighted by a blue box)**: These objects are placed on the desk and are closer to the viewer.\n\nGiven that the books are on the desk and are positioned closer to the camera, they are the closer object.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Refrigerator (highlighted by a red box)**: This object is located near the center of the image, closer to the foreground.\n2. **Door (highlighted by a blue box)**: This object is located further back in the image, closer to the background.\n\nGiven that the refrigerator appears larger and more detailed, it suggests that it is closer to the camera. Therefore, the refrigerator is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Chair (highlighted by a red box):** This object is located closer to the camera as it is positioned in front of the table.\n2. **Books (highlighted by a blue box):** These objects are further away from the camera, as they are on the bookshelf and not directly in front of the viewer.\n\nGiven that the chair appears closer due to its position in front of the table, the correct answer is:\n\n(B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Books (highlighted by a red box)**: These are located on a shelf that is relatively close to the viewer.\n2. **Lamp (highlighted by a blue box)**: This is hanging from the ceiling and appears smaller due to its distance from the viewer.\n\nGiven that the books are closer to the camera, they will be larger and more detailed in the image.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The books are placed on a table in front of the couch, while the door is further back in the room.\n\n1. **Books**: These are directly in front of the viewer, likely on a coffee table or side table.\n2. **Door**: This is located further back in the room, near the kitchen area.\n\nGiven that the books are closer to the viewer, they would appear larger and more prominent in the image compared to the door, which is farther away.\n\nTherefore, the answer is:\n\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is closer to the camera as it appears larger and more detailed.\n2. **Door (highlighted by a blue box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (highlighted by a red box):** This object is located further back in the room.\n2. **Books (highlighted by a blue box):** These objects are closer to the foreground.\n\nGiven that the books are positioned closer to the viewer, they would appear larger and more detailed than the television, which is farther away.\n\nTherefore, the books are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Shelves (highlighted by a red box)**: These are located on the left side of the image.\n2. **Television (highlighted by a blue box)**: This is positioned further back in the room, near the center-right of the image.\n\nGiven that the shelves are closer to the camera, they would appear larger and more detailed compared to the television, which is farther away.\n\nTherefore, the answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the image.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nThe table is closer to the camera because it is positioned lower in the image compared to the bookcase. This means that the table appears larger and more prominent in the image, indicating its proximity to the camera.\n\nTherefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground, while those that are farther away appear smaller and less prominent.\n\nIn the image provided:\n- The table (highlighted by a red box) is located towards the right side of the room.\n- The bookcase (highlighted by a blue box) is located towards the left side of the room.\n\nGiven that the table is on the right and the bookcase is on the left, and considering the perspective of the image, the table appears to be closer to the camera than the bookcase.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (highlighted by a red box)**: This appears smaller and less detailed, indicating it is further away from the camera.\n2. **Books (highlighted by a blue box)**: These appear larger and more detailed, indicating they are closer to the camera.\n\nTherefore, the books are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Chair (highlighted by a red box)**: This object is located closer to the foreground of the image.\n2. **Bookcase (highlighted by a blue box)**: This object is located further back in the room.\n\nGiven that the chair appears larger and more detailed, it suggests that it is closer to the camera. Therefore, the chair is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D scene, objects that are closer appear larger and more detailed in the foreground, while objects that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The desk is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the desk is closer to the camera, it appears larger and more detailed compared to the table, which is further away. Therefore, the desk is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a photograph, objects that are closer appear larger and more prominent in the frame.\n\nIn the image:\n- The books are highlighted by a red box.\n- The chair is highlighted by a blue box.\n\nGiven that the books are placed on a small table and are relatively close to the viewer compared to the chair, which is further away, the books are likely to be closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room, near the ceiling.\n2. **Table (Blue Box)**: This object is closer to the camera, as it is positioned in the foreground of the image.\n\nGiven that the table appears larger and more detailed than the bookcase, it is reasonable to conclude that the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground, while those that are farther away appear smaller and less prominent.\n\nIn the image:\n- The chair is highlighted by a red box.\n- The bookcase is highlighted by a blue box.\n\nGiven that the chair is closer to the camera, it appears larger and more prominent compared to the bookcase, which is further away.\n\nTherefore, the correct answer is:\n\n(A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Shelves (highlighted by a red box)**: These are located further back in the room.\n2. **Books (highlighted by a blue box)**: These are placed on a table in the foreground.\n\nGiven that the books are closer to the camera, they appear larger and more detailed than the shelves, which are farther away.\n\nTherefore, the answer is:\n\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling and photography, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Chair (highlighted by a red box)**: The chair is placed on the right side of the image, closer to the foreground.\n2. **Bookcase (highlighted by a blue box)**: The bookcase is placed on the left side of the image, further back in the scene.\n\nGiven that the chair is positioned closer to the viewer, it appears larger and more prominent compared to the bookcase, which is farther away.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (highlighted by a red box)**: This object is located further back in the room.\n2. **Table (highlighted by a blue box)**: This object is closer to the foreground of the image.\n\nGiven that the table appears larger and more detailed than the television, it suggests that the table is closer to the camera.\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The sofa is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the sofa is closer to the camera, it would be larger and more prominent in the frame compared to the table, which is further away.\n\nTherefore, the correct answer is:\n\n(A) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a photograph, objects that are closer appear larger and more prominent in the foreground, while those that are farther away appear smaller and less prominent.\n\nIn the image provided:\n- The shelves are on the left side and appear to be further back.\n- The chair is on the right side and appears to be closer to the camera.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table**: The table is located in the foreground of the image. It is closer to the viewer.\n2. **Television**: The television is located further back in the room, behind the sofa and coffee table. It appears smaller and less detailed compared to the table.\n\nGiven this analysis, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The shelves are highlighted by a red box.\n- The chair is highlighted by a blue box.\n\nGiven that the chair is closer to the camera, it appears larger and more prominent in the frame compared to the shelves, which are further away.\n\nTherefore, the answer is:\n\n(A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The lamp is highlighted by a red box, and it appears larger in the image compared to the blinds, which are highlighted by a blue box.\n\nIn photography, objects that are closer to the camera appear larger and more detailed than those that are farther away. This principle is known as the rule of thirds and the perspective effect.\n\nGiven that the lamp is shown in greater detail and appears larger in the image, it indicates that the lamp is closer to the camera.\n\nTherefore, the correct answer is:\n\n(A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Chair (highlighted by a blue box)**: This object is closer to the camera as it appears larger and more detailed.\n2. **Floor mat (highlighted by a red box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Shelves**: The shelves are located further back in the room.\n2. **Table**: The table is closer to the camera and appears larger due to its proximity.\n\nGiven that the table is closer to the camera, it is the object highlighted by the blue box.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a red box)**: This object is located further back in the room.\n2. **Books (highlighted by a blue box)**: These objects are closer to the camera and appear larger and more detailed.\n\nGiven that the books are closer to the camera, the correct answer is:\n\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling software like Unity, objects that are closer to the camera appear larger and more prominent in the scene.\n\n1. **Lamp**: The lamp is highlighted by a red box. It appears smaller compared to other objects in the scene.\n2. **Counter**: The counter is highlighted by a blue box. It appears larger and more prominent in the scene.\n\nGiven that the counter is larger and more prominent, it is likely closer to the camera than the lamp.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Lamp**: The lamp is placed on a table, and its position relative to the camera suggests it is relatively close.\n2. **Television**: The television is mounted on the wall, and its position relative to the camera indicates it is further back in the scene.\n\nGiven these observations, the lamp appears larger and more prominent compared to the television, suggesting it is closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp**: The lamp is highlighted by a red box. It appears smaller and less detailed compared to other objects in the image.\n2. **Table**: The table is highlighted by a blue box. It appears larger and more detailed compared to the lamp.\n\nGiven that the table is larger and more detailed, it is likely closer to the camera. Therefore, the correct answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box):** The bookcase is located further back in the room, as indicated by its relative size and position.\n2. **Table (Blue Box):** The table is closer to the camera, as it appears larger and more detailed compared to the bookcase.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located near the foreground, closer to the viewer.\n2. **Desk (highlighted by a blue box)**: This object is further back in the room, not as close to the camera as the table.\n\nGiven that the table appears larger and more detailed, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a blue box):** This object is located near the center of the image and appears relatively large.\n2. **Sofa (highlighted by a red box):** This object is positioned further back in the room and appears smaller due to its distance from the camera.\n\nGiven that the sofa is farther away from the camera than the lamp, it is likely that the lamp is closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The table is in the foreground, while the television is further back in the room.\n\n1. **Foreground Object**: The table is closer to the viewer because it is positioned in front of the couch and directly in front of the camera.\n2. **Background Object**: The television is farther away from the viewer because it is located behind the couch and not as close to the camera as the table.\n\nTherefore, the table is closer to the camera than the television.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The shelves are highlighted by a red box.\n- The mirror is highlighted by a blue box.\n\nGiven that the shelves are closer to the camera, they would appear larger and more prominent in the frame compared to the mirror, which is likely farther away.\n\nTherefore, the answer is:\n\n(B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The table is highlighted by a red box.\n- The desk is highlighted by a blue box.\n\nGiven that the table is closer to the camera, it appears larger and more prominent in the frame compared to the desk, which is further away.\n\nTherefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Blinds (highlighted by a red box)**: These are located near the window and are part of the background.\n2. **Towel (highlighted by a blue box)**: This is on the table in the foreground.\n\nGiven that the towel is closer to the camera, it appears larger and more detailed than the blinds, which are further away.\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Table (Red Box)**: The table is located closer to the foreground of the image.\n2. **Bookcase (Blue Box)**: The bookcase is located further back in the image.\n\nGiven that the table appears larger and more detailed in the foreground, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame.\n\n1. **Door (highlighted by a red box)**: The door appears smaller compared to other elements in the image.\n2. **Lamp (highlighted by a blue box)**: The lamp appears larger and more detailed, indicating it is closer to the camera.\n\nTherefore, the lamp is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Books (highlighted by a red box)**: These are likely on a shelf or table that is relatively close to the viewer.\n2. **Desk (highlighted by a blue box)**: This appears to be further back in the room, as it is not as prominently visible and does not seem to be in immediate focus.\n\nGiven that the books are more prominent and detailed in the foreground, they are likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The table is highlighted by a red box.\n- The lamp is highlighted by a blue box.\n\nGiven that the table is within the red box and the lamp is within the blue box, and considering the perspective of the image, the table appears to be closer to the camera than the lamp.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling and rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The table (highlighted by a red box) appears smaller and less detailed compared to the bookcase (highlighted by a blue box).\n- The bookcase is positioned further back in the scene, indicating it is farther from the camera.\n\nTherefore, the table is closer to the camera than the bookcase.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The pillow is highlighted by a blue box.\n\nGiven that the pillow is closer to the camera, it will appear larger and more prominent in the frame compared to the bookcase, which is further away.\n\nTherefore, the correct answer is:\n\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more detailed in the image.\n\n1. **Shelves (highlighted by a red box)**: These are likely positioned further back in the room.\n2. **Pillow (highlighted by a blue box)**: This appears to be closer to the foreground of the image.\n\nGiven that the pillow is more prominent and detailed in the image compared to the shelves, it suggests that the pillow is closer to the camera.\n\nTherefore, the answer is:\n\n(B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Shelves (highlighted by a red box)**: These are located further back in the room.\n2. **Books (highlighted by a blue box)**: These are placed on the shelves and are closer to the viewer.\n\nGiven that the books are directly on the shelves and are part of the same structure, they are likely closer to the camera than the shelves themselves.\n\nTherefore, the answer is:\n\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The lamp is highlighted by a red box, while the television is highlighted by a blue box.\n\n1. **Perspective Analysis**:\n   - The lamp is positioned higher up in the image, closer to the ceiling.\n   - The television is positioned lower down, closer to the floor.\n\n2. **Distance from the Camera**:\n   - Since the lamp is higher up, it appears smaller in the image, indicating it is farther away from the camera.\n   - The television, being lower down, appears larger in the image, indicating it is closer to the camera.\n\nBased on this analysis, the television is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room.\n2. **Table (Blue Box)**: This object is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger in the frame compared to those that are farther away.\n\n1. **Books (highlighted by a red box)**: These are placed on a surface, likely a desk or table, and are relatively small in size.\n2. **Chair (highlighted by a blue box)**: This is a larger object, positioned further back in the room, indicating it is farther from the camera.\n\nGiven that the books are smaller and closer to the camera, while the chair is larger and farther away, the books are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table**: The table is highlighted by a red box. It appears smaller and less detailed compared to other objects in the image.\n2. **Lamp**: The lamp is highlighted by a blue box. It appears larger and more detailed compared to other objects in the image.\n\nGiven that the lamp is more detailed and appears larger, it is likely closer to the camera. Therefore, the correct answer is:\n\n(A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (Red Box)**: The lamp is located higher up on the ceiling and appears smaller due to its distance from the camera.\n2. **Chair (Blue Box)**: The chair is positioned lower on the floor and appears larger, indicating it is closer to the camera.\n\nGiven that the chair is closer to the camera, the correct answer is:\n\n(B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (Red Box)**: The television is located further back in the room, as it is not immediately visible from the angle of the photograph.\n2. **Chair (Blue Box)**: The chair is positioned closer to the camera, making it appear larger and more detailed in the image.\n\nGiven that the chair is closer to the camera, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a photograph, objects that are closer appear larger and more detailed in the foreground, while objects that are farther away appear smaller and less detailed.\n\nIn this image:\n- The table is highlighted by a red box.\n- The blinds are highlighted by a blue box.\n\nGiven that the table is closer to the camera, it will appear larger and more detailed compared to the blinds, which are further away.\n\nTherefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the frame.\n\nIn the image:\n- The shelves are highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the shelves are further back in the image compared to the table, the table would appear larger and closer to the viewer due to its proximity to the camera.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located on the coffee table in the foreground.\n2. **Bookcase (highlighted by a blue box)**: This object is located further back in the room, near the wall.\n\nGiven that the table appears closer due to its proximity to the viewer, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room.\n2. **Table (Blue Box)**: This object is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a red box)**: This object is located near the ceiling and appears smaller in the image.\n2. **Television (highlighted by a blue box)**: This object is placed on a stand and is positioned further back in the room, appearing larger and more detailed than the lamp.\n\nGiven that the television is positioned further back in the room and appears larger, it is likely closer to the camera. Therefore, the correct answer is:\n\n(B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (highlighted by a red box)**: This object is located further back in the room.\n2. **Table (highlighted by a blue box)**: This object is closer to the camera and appears larger and more detailed.\n\nGiven that the table is closer to the camera, it is the object that is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (Red Box)**: The lamp is located near the center of the image, closer to the foreground. It appears larger and more detailed than the television.\n2. **Television (Blue Box)**: The television is positioned further back in the room, closer to the background. It appears smaller and less detailed compared to the lamp.\n\nGiven that the lamp is closer to the camera, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the frame.\n\nIn the image, the bookcase (highlighted by a red box) is positioned further back compared to the table (highlighted by a blue box). This means that the table is closer to the camera than the bookcase.\n\nTherefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (Red Box)**: The table is located in the foreground, closer to the viewer.\n2. **Desk (Blue Box)**: The desk is located further back in the room, behind the table.\n\nGiven that the table appears larger and more detailed, it indicates that it is closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a blue box)**: This object is located closer to the camera as it appears larger and more detailed.\n2. **Table (highlighted by a red box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the lamp is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the relative positions of the refrigerator and the door in the image.\n\n1. **Position of the Refrigerator**: The refrigerator is highlighted by a red box. It appears to be located on the left side of the image, near the stairs.\n2. **Position of the Door**: The door is highlighted by a blue box. It is located on the right side of the image, near the entrance to the kitchen.\n\nGiven that the refrigerator is on the left and the door is on the right, and assuming the camera is positioned such that it captures both objects from a similar angle, the door would be closer to the camera because it is on the right side of the image, while the refrigerator is on the left.\n\nTherefore, the door is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (highlighted by a red box):** This object is located further back in the room, as it is not immediately visible from the viewpoint of the camera.\n2. **Lamp (highlighted by a blue box):** This object is closer to the camera, as it is positioned in the foreground and appears larger than the television.\n\nGiven this analysis, the lamp is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The box is highlighted by a red box, while the desk is highlighted by a blue box.\n\n1. **Perspective Analysis**:\n   - The box (red box) is located on the left side of the image.\n   - The desk (blue box) is located further into the room, towards the right side of the image.\n\n2. **Distance Estimation**:\n   - Since the box is closer to the foreground, it appears larger and more detailed in the image.\n   - The desk, being farther away, appears smaller and less detailed.\n\n3. **Conclusion**:\n   - Based on the perspective and relative size, the box (red box) is closer to the camera than the desk (blue box).\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The refrigerator is highlighted by a red box, indicating it is closer to the viewer. The lamp is highlighted by a blue box, suggesting it is further away from the viewer.\n\nTherefore, the refrigerator is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a red box)**: This object is placed on the right side of the image and appears smaller and less detailed compared to the table.\n2. **Table (highlighted by a blue box)**: This object is placed in the center-left part of the image and appears larger and more detailed compared to the lamp.\n\nGiven that the table is larger and more detailed, it is likely to be closer to the camera. Therefore, the correct answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room.\n2. **Table (Blue Box)**: This object is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Table (highlighted by a red box)**: This object is closer to the camera as it appears larger and more detailed.\n2. **Shelves (highlighted by a blue box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Refrigerator**: The refrigerator is highlighted by a red box. It is located near the center of the image, slightly to the right.\n2. **Lamp**: The lamp is highlighted by a blue box. It is located at the top left corner of the image.\n\nGiven that the lamp is positioned higher up and appears smaller due to its distance from the camera, while the refrigerator is closer to the table and appears larger, it is clear that the refrigerator is closer to the camera.\n\nTherefore, the answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The lamp (highlighted by a red box) appears smaller and less prominent.\n- The door (highlighted by a blue box) appears larger and more detailed.\n\nGiven this information, the door is closer to the camera than the lamp.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (Red Box)**: This object is located further back in the room, as indicated by its relative size and position.\n2. **Table (Blue Box)**: This object is closer to the camera, as it appears larger and more detailed compared to other objects in the same area.\n\nGiven this analysis, the table (blue box) is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The lamp is highlighted by a red box.\n- The shelves are highlighted by a blue box.\n\nGiven that the lamp is smaller and appears further away from the camera compared to the shelves, which are larger and appear closer to the camera, it can be concluded that the shelves are closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The towel is highlighted by a blue box, and it appears larger in the image compared to the blinds, which are highlighted by a red box.\n\n1. **Perspective and Size**: In photography, objects that are closer to the camera appear larger in the image. This is because the camera captures more of the object's details and dimensions.\n2. **Object Analysis**:\n   - The towel is likely placed on a surface or shelf, and its size relative to other objects suggests it is closer to the camera.\n   - The blinds are part of a window and are typically farther away from the camera than the towel.\n\nGiven these observations, the towel is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The books are highlighted by a red box and are located on the floor near the chair. The mirror is highlighted by a blue box and is mounted on the wall.\n\nIn a typical room setup, objects that are closer to the viewer appear larger and more prominent in the foreground. Since the books are placed on the floor and are relatively close to the camera, they would be more noticeable and appear larger than the mirror, which is mounted higher up on the wall.\n\nTherefore, the books are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the room.\n2. **Books (highlighted by a blue box)**: These objects are closer to the foreground, appearing larger and more detailed.\n\nGiven that the books are closer to the camera, the correct answer is:\n\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn this image:\n- The pillow is highlighted by a red box.\n- The television is highlighted by a blue box.\n\nGiven that the pillow is closer to the camera, it appears larger and more detailed compared to the television, which is further away.\n\nTherefore, the correct answer is:\n\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The towel is located on a surface that appears to be at a lower level compared to the window and the cabinets. The blinds, on the other hand, are higher up in the image and appear to be closer to the viewer.\n\nTherefore, the towel is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the relative positions of the objects in the image.\n\n1. **Identify the objects**: The objects mentioned are a lamp and a television.\n2. **Position analysis**:\n   - The lamp is highlighted by a red box.\n   - The television is highlighted by a blue box.\n3. **Relative distance**:\n   - The lamp appears to be closer to the foreground of the image.\n   - The television is positioned further back, behind the couch and other furniture.\n\nGiven that the lamp is closer to the foreground and the television is further back, the lamp is closer to the camera.\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This bookcase is located further back in the room.\n2. **Table (Blue Box)**: This table is positioned closer to the foreground of the image.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Books (highlighted by a red box)**: These are located on the lower shelf of the bookcase.\n2. **Bookcase (highlighted by a blue box)**: This is a larger structure that contains multiple shelves.\n\nGiven that the books are on the lower shelf of the bookcase, they are closer to the camera than the entire bookcase itself. Therefore, the books are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Lamp (highlighted by a blue box)**: This object is located near the ceiling and appears to be hanging from the ceiling. It is likely positioned at a higher elevation relative to the floor.\n2. **Door (highlighted by a red box)**: This object is located on the wall and appears to be at a lower elevation compared to the ceiling. It is likely positioned closer to the floor.\n\nGiven that the door is at a lower elevation and appears to be closer to the viewer, it is more likely to be closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image:\n- The door is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nThe door appears larger and more detailed in the image, suggesting it is closer to the camera. The table, while still visible, does not appear as large or detailed, indicating it is farther away from the camera.\n\nTherefore, the door is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box):** The bookcase is located behind the table and appears smaller due to its distance from the camera.\n2. **Table (Blue Box):** The table is closer to the camera and appears larger and more detailed than the bookcase.\n\nGiven that the table is closer to the camera, it is the object highlighted by the blue box.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Pillow (highlighted by a red box)**: This object is located near the dining table and appears to be closer to the viewer.\n2. **Desk (highlighted by a blue box)**: This object is further back in the room and appears smaller and less detailed than the pillow.\n\nGiven that the pillow is closer to the camera, the correct answer is:\n\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Door (highlighted by a red box)**: The door is located further back in the room compared to the shelves.\n2. **Shelves (highlighted by a blue box)**: The shelves are positioned closer to the viewer than the door.\n\nGiven this information, the shelves are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The lamp (highlighted by a red box) appears to be relatively small compared to other objects.\n- The chair (highlighted by a blue box) appears to be larger and more detailed, suggesting it is closer to the camera.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling software like Unity, objects that are closer to the camera appear larger and more prominent in the scene.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the bookcase is within the red box and appears larger compared to the table, which is within the blue box and appears smaller, it indicates that the bookcase is closer to the camera.\n\nTherefore, the answer is:\n\n(B) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 102
+        }
+    ],
+    "answer (B)": [
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a blue box)**: This object is located further back in the room, as it is positioned on the opposite side of the dining table from the viewer.\n2. **Pillow (highlighted by a red box)**: This object is closer to the viewer, as it is placed near the foreground area of the image.\n\nGiven that the pillow is nearer to the camera, the correct answer is:\n\n(B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (Red Box)**: The desk appears smaller and less detailed compared to the chairs. This suggests it is further away from the camera.\n2. **Chair (Blue Box)**: The chairs appear larger and more detailed, indicating they are closer to the camera.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects that appear larger in the image are typically closer to the camera.\n\n1. **Bookcase (highlighted by a blue box)**: This object appears smaller compared to the table.\n2. **Table (highlighted by a red box)**: This object appears larger compared to the bookcase.\n\nSince the table appears larger in the image, it is likely closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located near the center of the image and appears to be relatively close to the viewer.\n2. **Lamp (highlighted by a blue box)**: This object is located higher up on the wall and appears smaller and less detailed compared to the door.\n\nGiven that the door is closer to the camera, it will appear larger and more detailed in the image.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The lamp is highlighted by a red box, and it appears smaller in the image compared to the blinds, which are highlighted by a blue box.\n\n1. **Perspective and Size**: In photography, objects that are closer to the camera appear larger and more detailed. Conversely, objects that are farther away appear smaller and less detailed.\n2. **Positioning**: The lamp is positioned on a shelf or table, while the blinds are part of a window, which is further back in the room.\n3. **Visual Clues**: The lamp's position suggests it is closer to the viewer, as it is more prominent and detailed in the image.\n\nGiven these observations, the lamp is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the room, as it is partially obscured by the red box.\n2. **Books (highlighted by a blue box)**: These objects are closer to the camera, as they are more detailed and prominent in the foreground.\n\nGiven that the books are more detailed and closer to the camera, the correct answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The door is framed within a red box, indicating it is the main focus of the image. The books are framed within a blue box, suggesting they are in the background.\n\nIn photography, objects that are closer to the camera appear larger and more detailed than those that are farther away. Since the door is framed closer to the viewer, it appears larger and more detailed compared to the books, which are in the background.\n\nTherefore, the door is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Television (Red Box):** The television is located further back in the room compared to the sofa.\n2. **Sofa (Blue Box):** The sofa is positioned closer to the viewer, making it appear larger and more detailed.\n\nGiven that the sofa is closer to the camera, the correct answer is:\n\n(B) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling and rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The books are highlighted by a red box.\n- The bookcase is highlighted by a blue box.\n\nGiven that the books are closer to the camera, they would appear larger and more detailed compared to the bookcase, which is further away.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The pillow is highlighted by a blue box, indicating it is in the foreground, while the sink is highlighted by a red box, suggesting it is further back in the room.\n\nGiven that the pillow is closer to the camera, the correct answer is:\n\n(B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located in the foreground of the image.\n2. **Television (highlighted by a blue box)**: This object is located further back in the room, near the window.\n\nGiven that the table appears closer to the camera due to its size and detail, the correct answer is:\n\n(B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the image.\n2. **Pillow (highlighted by a blue box)**: This object is located closer to the foreground.\n\nGiven that the door appears smaller and less detailed than the pillow, it suggests that the pillow is closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a red box)**: This object is hanging from the ceiling and appears smaller in the image.\n2. **Refrigerator (highlighted by a blue box)**: This object is placed on the countertop and appears larger and more detailed than the lamp.\n\nGiven that the refrigerator is placed on the countertop and appears larger and more detailed, it is likely closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a red box)**: This object is located in the foreground of the image.\n2. **Books (highlighted by a blue box)**: These books are placed on top of the desk, which is also in the foreground.\n\nSince both the desk and the books are in the same location (foreground), they are equally close to the camera. Therefore, neither is closer than the other.\n\nAnswer: Neither (A) nor (B).\n## LLM FORCED ##\nAnswer: Neither"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Door (highlighted by a blue box)**: This object is located further back in the image.\n2. **Refrigerator (highlighted by a red box)**: This object is located closer to the foreground.\n\nGiven that the refrigerator appears larger and more detailed in the image, it is likely closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Chair (highlighted by a red box):** This object is located closer to the camera as it is positioned in front of the table.\n2. **Books (highlighted by a blue box):** These objects are further away from the camera, as they are on the bookshelf and not directly in front of the viewer.\n\nGiven that the chair appears closer due to its position in front of the table, the correct answer is:\n\n(A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a blue box):** This object is located near the ceiling and appears to be hanging from the ceiling. It is likely positioned higher up in the room.\n2. **Books (highlighted by a red box):** These books are placed on a shelf or surface that is lower than the lamp. They are closer to the viewer's eye level.\n\nGiven that the books are closer to the viewer's eye level and appear larger, they are closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The books are placed on a table in front of the couch, while the door is further back in the room.\n\n1. **Books**: These are directly in front of the viewer, likely on a coffee table or side table.\n2. **Door**: This is located further back in the room, near the kitchen area.\n\nGiven that the books are closer to the viewer, they would appear larger and more prominent in the image compared to the door, which is farther away.\n\nTherefore, the answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is closer to the camera as it appears larger and more detailed.\n2. **Door (highlighted by a blue box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The television is highlighted by a red box, while the books are highlighted by a blue box.\n\n1. **Television**: The television is located further back in the room, as it is positioned against the wall and not directly in front of the viewer.\n2. **Books**: The books are placed on a table in the foreground, closer to the viewer than the television.\n\nGiven that the books are closer to the camera, the correct answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The shelves are highlighted by a red box.\n- The television is highlighted by a blue box.\n\nGiven that the shelves are within the immediate foreground area of the image, they would appear larger and more detailed compared to the television, which is further back in the scene. Therefore, the shelves are closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the image.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nThe table is positioned closer to the foreground of the image compared to the bookcase. This means that the table appears larger in the image, indicating it is closer to the camera.\n\nTherefore, the correct answer is:\n\n(B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The table (highlighted by a red box) appears smaller and less detailed compared to the bookcase (highlighted by a blue box).\n- The bookcase is positioned further back in the scene, indicating it is farther from the camera.\n\nTherefore, the table is closer to the camera than the bookcase.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (highlighted by a red box)**: This appears smaller and less detailed, indicating it is further away from the camera.\n2. **Books (highlighted by a blue box)**: These appear larger and more detailed, indicating they are closer to the camera.\n\nTherefore, the books are closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Chair (Red Box)**: The chair is located closer to the foreground of the image.\n2. **Bookcase (Blue Box)**: The bookcase is located further back in the room.\n\nGiven that the chair appears larger and more detailed, it suggests that it is closer to the camera. Therefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D scene, objects that are closer appear larger and more detailed in the foreground, while objects that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The desk is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the desk is closer to the camera, it appears larger and more detailed compared to the table, which is further away. Therefore, the desk is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects that are closer appear larger in the image.\n\n1. **Chair (highlighted by a blue box)**: This object is located near the foreground of the image.\n2. **Books (highlighted by a red box)**: These objects are placed on a shelf in the background.\n\nGiven that the chair is closer to the camera, it appears larger in the image compared to the books, which are further away.\n\nTherefore, the correct answer is:\n\n(A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room, near the desk and the window.\n2. **Table (Blue Box)**: This object is closer to the camera, as it is positioned directly in front of the viewer.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn this image:\n- The bookcase is highlighted by a blue box.\n- The chair is highlighted by a red box.\n\nGiven that the bookcase is highlighted by a blue box, it suggests that the bookcase is further away from the camera compared to the chair, which is highlighted by a red box. Therefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Shelves (highlighted by a red box)**: These are located further back in the room.\n2. **Books (highlighted by a blue box)**: These are placed on a coffee table in the foreground.\n\nGiven that the books are closer to the camera, they will appear larger and more detailed than the shelves, which are farther away.\n\nTherefore, the answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling and photography, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Bookcase (highlighted by a blue box)**: This object is located further back in the room, as it is positioned on a shelf and not directly in front of the viewer.\n2. **Chair (highlighted by a red box)**: This object is closer to the viewer, as it is placed directly in front of the camera and appears larger compared to the bookcase.\n\nGiven this analysis, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The television is highlighted by a red box, and the table is highlighted by a blue box.\n\n1. **Television (Red Box):** The television is located on the left side of the image, and it appears smaller compared to the other objects. This suggests that the television is farther away from the camera.\n2. **Table (Blue Box):** The table is located in the foreground of the image, closer to the viewer. It appears larger than the television, indicating that it is nearer to the camera.\n\nGiven these observations, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more detailed in the frame compared to those that are farther away.\n\nIn the image provided:\n- The sofa is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the sofa is closer to the camera, it would be larger and more detailed in the frame compared to the table, which is further away.\n\nTherefore, the correct answer is:\n\n(B) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame.\n\n1. **Shelves (highlighted by a blue box)**: These are located further back in the room.\n2. **Chair (highlighted by a red box)**: This is positioned closer to the foreground of the image.\n\nGiven that the chair is closer to the camera, it appears larger and more prominent compared to the shelves.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table**: The table is located in the foreground of the image. It is closer to the viewer.\n2. **Television**: The television is located further back in the room, behind the sofa and coffee table. It appears smaller and less detailed compared to the table.\n\nGiven this analysis, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The shelves are highlighted by a red box.\n- The chair is highlighted by a blue box.\n\nGiven that the chair is closer to the camera, it appears larger and more prominent in the frame compared to the shelves, which are further away.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The lamp is highlighted by a red box, and it appears larger in the image compared to the blinds, which are highlighted by a blue box.\n\nIn photography, objects that are closer to the camera appear larger and more detailed than those that are farther away. This principle is known as the rule of thirds and the perspective effect.\n\nGiven that the lamp (red box) appears larger and more detailed in the image, it indicates that the lamp is closer to the camera. Therefore, the lamp is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Floor Mat**: The floor mat is located on the floor, which is typically at a lower elevation than the chairs.\n2. **Chair**: The chairs are positioned around the dining table, and they are elevated slightly above the floor level.\n\nGiven that the chairs are elevated and the floor mat is on the floor, it is reasonable to conclude that the chairs are closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Shelves**: The shelves are located further back in the room.\n2. **Table**: The table is closer to the camera, as it appears larger and more detailed than the shelves.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a red box)**: This object is located further back in the room.\n2. **Books (highlighted by a blue box)**: These objects are placed on the coffee table in the foreground.\n\nGiven that the books are closer to the camera, they appear larger and more detailed than the desk, which is further away.\n\nTherefore, the answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling software like Unity, objects that are closer to the camera appear larger and more prominent in the scene.\n\n1. **Lamp**: The lamp is highlighted by a red box. It appears smaller compared to the counter.\n2. **Counter**: The counter is highlighted by a blue box. It appears larger and more prominent in the scene.\n\nGiven that the counter appears larger and more prominent, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Television**: The television is highlighted by a red box. It appears smaller compared to other objects in the image.\n2. **Lamp**: The lamp is highlighted by a blue box. It appears larger than the television and is positioned closer to the viewer.\n\nGiven these observations, the lamp is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a blue box)**: This object is located in the foreground of the image.\n2. **Lamp (highlighted by a red box)**: This object is also in the foreground but slightly behind the table.\n\nGiven that both objects are in the same plane and the table is directly in front of the lamp, the table appears to be closer to the camera due to its larger size and more prominent position.\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box):** This is located further back in the room.\n2. **Table (Blue Box):** This is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it is likely closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a blue box)**: This object is located further back in the room, as indicated by its smaller size and less detail.\n2. **Table (highlighted by a red box)**: This object is closer to the camera, as it appears larger and more detailed.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Sofa**: The sofa is highlighted by a red box. It appears smaller and less detailed compared to other objects in the image.\n2. **Lamp**: The lamp is highlighted by a blue box. It appears larger and more detailed compared to other objects in the image.\n\nGiven that the sofa appears smaller and less detailed, it is likely further away from the camera. Conversely, the lamp, being larger and more detailed, is likely closer to the camera.\n\nTherefore, the object closer to the camera is the lamp.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the relative sizes of the objects in the image.\n\n1. **Television (highlighted by a blue box)**: The television is relatively small compared to the other objects in the room.\n2. **Table (highlighted by a red box)**: The table is larger than the television and appears to be closer to the viewer due to its size and position in the foreground.\n\nGiven that the table is larger and positioned closer to the viewer, it is more likely to be closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided, the shelves (highlighted by a red box) are positioned further back in the scene compared to the mirror (highlighted by a blue box). The shelves are part of the bar area, while the mirror is likely on the wall behind the dining tables. Given this arrangement, the mirror would be closer to the camera because it is nearer to the viewer's perspective.\n\nTherefore, the correct answer is:\n\n(B) mirror"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The table is highlighted by a red box.\n- The desk is highlighted by a blue box.\n\nGiven that the table is closer to the camera, it appears larger and more prominent in the frame compared to the desk, which is further away.\n\nTherefore, the correct answer is:\n\n(B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Blinds (highlighted by a red box)**: These are located near the window and are part of the background.\n2. **Towel (highlighted by a blue box)**: This is on the table and is closer to the viewer.\n\nGiven that the towel is on the table and appears larger and more detailed compared to the blinds, it is likely closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Bookcase (blue box)**: This object is located further back in the room.\n2. **Table (red box)**: This object is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it is likely closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The door is highlighted by a red box.\n- The lamp is highlighted by a blue box.\n\nGiven that the door is closer to the camera, it would appear larger and more prominent in the frame compared to the lamp, which is further away.\n\nTherefore, the door is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a blue box)**: This object is located closer to the foreground of the image.\n2. **Books (highlighted by a red box)**: These objects are further back in the scene.\n\nGiven that the desk appears larger and more detailed, it suggests that it is closer to the camera. Therefore, the desk is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The table is highlighted by a red box.\n- The lamp is highlighted by a blue box.\n\nGiven that the table is within the red box and the lamp is within the blue box, and considering the perspective of the image, the table appears to be closer to the camera than the lamp.\n\nTherefore, the correct answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling, objects that are closer appear larger and more prominent in the foreground, while those that are farther away appear smaller and less prominent.\n\nIn the image provided:\n- The table (highlighted by a red box) is positioned towards the right side of the image.\n- The bookcase (highlighted by a blue box) is positioned towards the left side of the image.\n\nGiven that the table is on the right and appears larger than the bookcase, it suggests that the table is closer to the camera. Therefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The pillow is highlighted by a blue box.\n\nGiven that the pillow is closer to the camera, it will appear larger and more prominent in the frame compared to the bookcase, which is further away.\n\nTherefore, the correct answer is:\n\n(B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The shelves are highlighted by a red box.\n- The pillow is highlighted by a blue box.\n\nGiven that the shelves are closer to the camera, they would appear larger and more prominent in the frame compared to the pillow, which is further away from the camera.\n\nTherefore, the correct answer is:\n\n(B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The shelves are highlighted by a red box, while the books are highlighted by a blue box.\n\nIn a 3D rendering or photograph, objects that are closer to the viewer appear larger and more detailed. This is because the camera's field of view captures more of the nearer objects, making them appear larger in the image.\n\nGiven that the shelves are highlighted by a red box, it suggests they are closer to the camera compared to the books, which are highlighted by a blue box.\n\nTherefore, the answer is:\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (highlighted by a red box)**: This object is located higher up on the ceiling and appears smaller due to its distance from the camera.\n2. **Television (highlighted by a blue box)**: This object is placed on a stand and is positioned lower down in the room. It appears larger and more detailed than the lamp, indicating it is closer to the camera.\n\nGiven that the television is larger and more detailed, it is likely closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box)**: This object is located further back in the room.\n2. **Table (Blue Box)**: This object is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more detailed in the image.\n\n1. **Books (highlighted by a red box)**: These are likely on a surface, such as a desk or table, and are relatively small in size.\n2. **Chair (highlighted by a blue box)**: This is a larger object, possibly a stool or a small chair, and it appears to be closer to the camera because it occupies a larger portion of the image.\n\nGiven that the chair takes up a larger area in the image compared to the books, it suggests that the chair is closer to the camera.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table**: The table is highlighted by a red box. It appears relatively large and detailed.\n2. **Lamp**: The lamp is highlighted by a blue box. It appears smaller and less detailed compared to the table.\n\nGiven that the table looks larger and more detailed, it suggests that the table is closer to the camera. Therefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the frame.\n\nIn the image:\n- The lamp is highlighted by a red box.\n- The chair is highlighted by a blue box.\n\nThe lamp is located higher up on the ceiling, while the chair is positioned lower on the floor near the table. Given that the lamp is higher and appears smaller in the frame compared to the chair, which is closer to the ground and appears larger, the chair must be closer to the camera.\n\nTherefore, the correct answer is:\n\n(A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The television is highlighted by a red box, while the chair is highlighted by a blue box.\n\nIn a photograph, objects that are closer appear larger and more prominent in the frame compared to objects that are farther away. Since the television is smaller and less prominent in the frame compared to the chair, it suggests that the chair is closer to the camera.\n\nTherefore, the chair is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In the image, the table appears larger and more detailed compared to the blinds. This suggests that the table is closer to the camera because it occupies a larger portion of the frame.\n\nTherefore, the answer is:\n\n(B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The shelves are highlighted by a red box, and the table is highlighted by a blue box.\n\nIn photography, objects that are closer to the camera appear larger in the frame compared to objects that are farther away. This principle is known as the rule of thirds and the perspective effect.\n\nGiven that the shelves are closer to the camera than the table, they would appear larger in the frame. Therefore, the shelves are closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box):** This object is located on the coffee table in the foreground.\n2. **Bookcase (highlighted by a blue box):** This object is located further back in the room, near the wall.\n\nGiven that the table appears closer due to its proximity to the viewer, the correct answer is:\n\n(B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box):** The bookcase is located further back in the room.\n2. **Table (Blue Box):** The table is located closer to the foreground.\n\nGiven that the table appears larger and more detailed in the image, it is likely closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (Red Box)**: The lamp is located near the ceiling and appears smaller due to its distance from the camera.\n2. **Television (Blue Box)**: The television is placed on a stand and is relatively close to the camera, making it appear larger and more detailed.\n\nGiven that the television is closer to the camera, the correct answer is:\n\n(A) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D scene, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The bookcase (highlighted by a red box) appears smaller and less detailed compared to the table (highlighted by a blue box).\n- The table is positioned closer to the viewer than the bookcase.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (highlighted by a blue box):** This object is located further back in the room, near the wall.\n2. **Lamp (highlighted by a red box):** This object is closer to the foreground, on the same level as the dining table.\n\nGiven that the lamp is positioned closer to the viewer, it appears larger and more detailed than the television, which is farther away.\n\nTherefore, the correct answer is:\n\n(B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The closer an object is to the camera, the larger it appears in the frame.\n\nIn the image provided:\n- The bookcase is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nGiven that the bookcase is within the red box and the table is within the blue box, and considering the perspective of the image, the bookcase appears larger than the table. This suggests that the bookcase is closer to the camera.\n\nTherefore, the answer is:\n\n(A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a blue box)**: This object is located further back in the room, as it is positioned against the wall and not directly in front of the viewer.\n2. **Table (highlighted by a red box)**: This object is closer to the camera, as it is placed on the floor in front of the desk and appears larger and more detailed due to its proximity.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located further back in the room.\n2. **Lamp (highlighted by a blue box)**: This object is closer to the camera and appears larger due to its proximity.\n\nGiven that the lamp is closer to the camera, it is the object that is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the relative positions of the objects in the image.\n\n1. **Door (highlighted by a blue box)**: The door is located on the left side of the image, near the stairs.\n2. **Refrigerator (highlighted by a red box)**: The refrigerator is located on the right side of the image, near the kitchen area.\n\nGiven that the door is on the left and the refrigerator is on the right, and assuming the camera is positioned such that it captures both objects from a similar distance, the door would be closer to the camera than the refrigerator.\n\nTherefore, the correct answer is:\n\n(A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Television (Red Box):** The television is located further back in the room, as indicated by its relative size and position.\n2. **Lamp (Blue Box):** The lamp is positioned closer to the foreground, making it appear larger and more detailed than the television.\n\nGiven that the lamp is closer to the camera, the correct answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Box (highlighted by a red box):** This object is located on a shelf that is closer to the camera. It appears larger and more detailed than the desk.\n2. **Desk (highlighted by a blue box):** This object is further away from the camera. It appears smaller and less detailed compared to the box.\n\nGiven this analysis, the box is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The refrigerator is highlighted by a red box, indicating it is closer to the viewer. The lamp is highlighted by a blue box, suggesting it is further away from the viewer.\n\nTherefore, the refrigerator is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Lamp (Highlighted by a Red Box):** The lamp is positioned on the right side of the image. It appears smaller and less detailed compared to other objects.\n2. **Table (Highlighted by a Blue Box):** The table is located further back in the image. It appears larger and more detailed than the lamp.\n\nGiven that the table is farther away from the camera, it is likely to be closer to the viewer than the lamp.\n\nTherefore, the correct answer is:\n\n(A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more prominent in the foreground.\n\n1. **Bookcase (Red Box)**: The bookcase is located further back in the room compared to the table.\n2. **Table (Blue Box)**: The table is positioned closer to the viewer than the bookcase.\n\nGiven that the table is closer to the camera, it appears larger and more prominent in the foreground of the image.\n\nTherefore, the correct answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Table (highlighted by a red box)**: This object is located closer to the camera as it appears larger and more detailed.\n2. **Shelves (highlighted by a blue box)**: This object is further away from the camera as it appears smaller and less detailed.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Refrigerator**: The refrigerator is located near the center of the image, slightly to the right. It is framed within a red box, indicating it is closer to the camera.\n2. **Lamp**: The lamp is located at the top left corner of the image, framed within a blue box. It appears smaller and less detailed compared to the refrigerator, suggesting it is farther from the camera.\n\nGiven this analysis, the refrigerator is closer to the camera than the lamp.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The lamp (highlighted by a red box) appears smaller and less prominent.\n- The door (highlighted by a blue box) appears larger and more detailed.\n\nGiven this observation, the door is likely closer to the camera than the lamp.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a red box)**: This object is located further back in the room, as it is not as close to the camera as the table.\n2. **Table (highlighted by a blue box)**: This object is closer to the camera, as it appears larger and more detailed than the desk.\n\nTherefore, the table is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more prominent in the frame compared to those that are farther away.\n\nIn the image provided:\n- The lamp is highlighted by a red box.\n- The shelves are highlighted by a blue box.\n\nGiven that the lamp is smaller and less prominent in the frame compared to the shelves, it suggests that the shelves are closer to the camera than the lamp.\n\nTherefore, the answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The towel is highlighted by a blue box, indicating it is closer to the camera. The blinds are highlighted by a red box, suggesting they are further away from the camera.\n\nTherefore, the object closer to the camera is the towel.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Books (highlighted by a red box)**: These are placed on the floor near the chair. They are relatively close to the viewer.\n2. **Mirror (highlighted by a blue box)**: This is mounted on the wall and appears smaller compared to the books because it is further away from the camera.\n\nGiven that the books are closer to the camera, the correct answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the room, as it is not as close to the camera as the other objects.\n2. **Books (highlighted by a blue box)**: These objects are placed on a table in the foreground, making them appear larger and more detailed than the door.\n\nGiven that the books are closer to the camera, the correct answer is:\n\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn this image:\n- The pillow is highlighted by a red box.\n- The television is highlighted by a blue box.\n\nGiven that the pillow is closer to the camera, it appears larger and more detailed compared to the television, which is further away.\n\nTherefore, the correct answer is:\n\n(B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The towel is highlighted by a blue box, indicating it is further away from the camera compared to the blinds, which are highlighted by a red box.\n\nTherefore, the answer is:\n\n(B) towel"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the relative positions of the objects in the image.\n\n1. **Identify the objects**: The objects mentioned are the television and the lamp.\n2. **Position analysis**:\n   - The television is located on the left side of the image.\n   - The lamp is located on the right side of the image.\n3. **Distance from the camera**:\n   - Since the television is on the left and the lamp is on the right, and assuming the camera is positioned in front of the room, the television would be closer to the camera than the lamp.\n4. **Conclusion**: The television is closer to the camera.\n\nTherefore, the correct answer is:\n\n(A) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Bookcase (Red Box):** This bookcase is located further back in the room.\n2. **Table (Blue Box):** This table is positioned closer to the foreground of the image.\n\nGiven that the table appears larger and more detailed in the image, it indicates that it is closer to the camera.\n\nTherefore, the answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The bookcase is larger and more prominent in the frame, while the books are smaller and appear to be at a distance.\n\nTherefore, the bookcase is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Door (highlighted by a red box)**: This object is located further back in the room, as it is not as close to the camera as the lamp.\n2. **Lamp (highlighted by a blue box)**: This object is closer to the camera, as it appears larger and more detailed compared to the door.\n\nTherefore, the object closer to the camera is the lamp.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In photography, objects that are closer appear larger and more detailed in the image compared to objects that are farther away.\n\nIn the image provided:\n- The door is highlighted by a red box.\n- The table is highlighted by a blue box.\n\nThe door appears larger and more detailed than the table, suggesting it is closer to the camera. Therefore, the door is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed than those in the background.\n\n1. **Bookcase (Red Box):** This bookcase is located further back in the room.\n2. **Table (Blue Box):** This table is closer to the foreground of the image.\n\nGiven that the table appears larger and more detailed compared to the bookcase, it suggests that the table is closer to the camera.\n\nTherefore, the answer is:\n\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The objects in the foreground appear larger and more detailed compared to those in the background.\n\n1. **Desk (highlighted by a blue box)**: This object is located further back in the room.\n2. **Pillow (highlighted by a red box)**: This object is closer to the camera and appears larger due to its proximity.\n\nTherefore, the pillow is closer to the camera.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. The door is highlighted by a red box, and the shelves are highlighted by a blue box.\n\nIn a 3D rendering or photograph, objects that are closer to the viewer appear larger and more prominent in the foreground. Conversely, objects that are farther away appear smaller and less prominent.\n\nGiven that the door is highlighted by a red box, it suggests that the door is closer to the camera. The shelves, highlighted by a blue box, are further back in the scene.\n\nTherefore, the door is closer to the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In a 3D rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided:\n- The lamp (highlighted by a red box) appears to be larger and more detailed compared to the chair (highlighted by a blue box).\n- This suggests that the lamp is closer to the camera than the chair.\n\nTherefore, the object closer to the camera is the lamp.\n\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "To determine which object is closer to the camera, we need to consider the perspective of the image. In 3D modeling and rendering, objects that are closer appear larger and more detailed in the foreground, while those that are farther away appear smaller and less detailed.\n\nIn the image provided, the bookcase is highlighted by a red box, and the table is highlighted by a blue box. The bookcase appears to be larger and more detailed compared to the table, suggesting it is closer to the camera.\n\nTherefore, the answer is:\n\n(A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 102
+        }
+    ]
+}

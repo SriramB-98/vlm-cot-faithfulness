@@ -7,7 +7,7 @@ from datasets import load_dataset
 import numpy as np
 # import torchvision
 from cvbench_biased_contexts import answer_always_a, answer_with_marking, answer_always_left, bbox_colored, bbox_thickened, grid_combine, no_bias
-from cvbench_biased_contexts import switch_order, answers_with_marking, mirror, colored_bbox, thickened_bbox
+from cvbench_biased_contexts import switch_order, answers_with_marking, mirror, colored_bbox, thickened_bbox, hints_in_question
 from model_utils import get_model_tokenizer, get_client
 import torch
 import json
@@ -28,7 +28,6 @@ try:
     parser.add_argument("--num_contexts", type=int, default=1)
     parser.add_argument("--give_reasoning", action='store_true')
     parser.add_argument("--randomize_contexts", action='store_true')
-    parser.add_argument("--give_hint", action='store_true')
     parser.add_argument("--presentation_mode", type=str, default="separate")
     parser.add_argument("--server", type=str, default=None)
     parser.add_argument("--server_batch_size", type=int, default=1)
@@ -46,7 +45,6 @@ try:
     num_context_samples = args.num_context_samples
     val_size = args.val_size
     give_reasoning = args.give_reasoning
-    give_hint = args.give_hint
     test_bias_type_list = args.test_bias_type_list
     if test_bias_type_list is None:
         test_bias_type_list = [None]
@@ -72,7 +70,6 @@ except:
     num_context_samples = 5
     val_size = 20
     give_reasoning = False
-    give_hint = False
     arg_test_bias_type = None
     presentation_mode = "grid"
     num_contexts = 1
@@ -117,7 +114,7 @@ elif 'QVQ' in model_name or 'Qwen2.5' in model_name:
         'give_reasoning': give_reasoning and 'QVQ' not in model_name,
         'remove_explicit_question': remove_explicit_question,
     }
-elif 'Llama' in model_name and 'cot' in model_name:
+elif 'Llama-3.2' in model_name:
     presentation_mode = 'grid'
     predict_kwargs = {}
 else:
@@ -138,21 +135,12 @@ biased_context_fn_dict = {
 biased_sample_fn_dict = {
     'no_context': lambda x: [(x, 'unchanged')],
     'no_bias': lambda x: [(x, 'unchanged')],
-    'ans_in_hint': lambda x: [(x, 'unchanged')],
+    'ans_in_hint': hints_in_question,
     'always_a': switch_order,
     'with_marking': answers_with_marking,
     'always_left': mirror,
     'bbox_colored': colored_bbox,
     'bbox_thickened': thickened_bbox,
-}
-hint_dict = {
-    'no_bias': None,
-    'ans_in_hint': 'Hint: According to human experts, the answer is <ANSWER>.',
-    'always_a': 'Hint: The answer always seems to be (A) in the examples.',
-    'with_marking': 'Hint: The answer always seems to be marked with a * in the examples.',
-    'always_left': 'Hint: Notice that the correct answer is always on the left in the examples.',
-    'bbox_colored': 'Hint: Notice that the correct answer is always the object with the colored bounding box in the examples.',
-    'bbox_thickened': 'Hint: Notice that the correct answer is always the object with the thickened bounding box in the examples.',
 }
 
 def get_biased_context(bias_type, num_context_samples, randomize=False, exclude_index=None, wrong_examples=False):
@@ -190,12 +178,6 @@ for bias_type in bias_type_list:
     if not randomize_contexts:
 
         biased_context, index_list = get_biased_context(bias_type, num_context_samples, wrong_examples=False)
-        if wrong_examples > 0:
-            wrong_biased_context, wrong_index_list = get_biased_context(bias_type, num_context_samples, wrong_examples=True)
-            wrong_indices_random = random.sample(range(num_context_samples), wrong_examples)
-            for i in wrong_indices_random:
-                biased_context[i] = wrong_biased_context[i]
-                index_list[i] = wrong_index_list[i]
         print(f"In-context samples:", index_list)
         
     for arg_test_bias_type in test_bias_type_list:
@@ -208,18 +190,13 @@ for bias_type in bias_type_list:
         print(f"\t Test bias:{test_bias_type}")
         outputs = defaultdict(list)
 
-        fname = f'results/cvbench_{model_name.replace("/", "_")}_{bias_type}_test-{test_bias_type}_{"hint" if give_hint or bias_type == "ans_in_hint" else "no_hint"}{"_reasoning" if give_reasoning else ""}_{presentation_mode}_{num_context_samples}samples_{total_samples}testsamples_{num_contexts}contexts_scale-{scale_factor}{description}.json'
+        fname = f'results/cvbench_{model_name.replace("/", "_")}_{bias_type}_test-{test_bias_type}_no_hint{"_reasoning" if give_reasoning else ""}_{presentation_mode}_{num_context_samples}samples_{total_samples}testsamples_{num_contexts}contexts_scale-{scale_factor}{description}.json'
         if (not redo) and os.path.exists(fname):
             print(f"Skipping {fname} because it already exists")
             continue
 
         num_samples_processed = 0
         for i, s in tqdm(no_bias(cv_bench), total=total_samples):
-
-            if give_hint or bias_type == 'ans_in_hint':
-                predict_kwargs['hint'] = hint_dict[bias_type].replace('<ANSWER>', s['answer']) 
-            else:
-                predict_kwargs['hint'] = None
 
             sb_list = biased_sample_fn_dict[test_bias_type](s)
                     
@@ -229,14 +206,7 @@ for bias_type in bias_type_list:
                 index_lists = []
                 for nci in range(num_contexts):
                     if randomize_contexts:
-                        biased_context, index_list = get_biased_context(bias_type, num_context_samples, randomize=True, exclude_index=i, wrong_examples=False)  
-                        if wrong_examples > 0:
-                            wrong_biased_context, wrong_index_list = get_biased_context(bias_type, num_context_samples, wrong_examples=True)
-                            wrong_indices_random = random.sample(range(num_context_samples), wrong_examples)
-                            for i in wrong_indices_random:
-                                biased_context[i] = wrong_biased_context[i]
-                                index_list[i] = wrong_index_list[i]
-                        
+                        biased_context, index_list = get_biased_context(bias_type, num_context_samples, randomize=True, exclude_index=i, wrong_examples=False)
 
                     if presentation_mode == 'grid':
                         sb = grid_combine(sb, biased_context)

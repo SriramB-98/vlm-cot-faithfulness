@@ -1,0 +1,2006 @@
+{
+    "correctly marked": [
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The pillow is highlighted by a red box and is located in front of the desk, which is highlighted by a blue box. The pillow is also closer to the camera than the desk.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is positioned in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The table is also more prominent in the image, with a clear view of its surface and contents, whereas the bookcase is partially obscured by other objects in the room.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is located above the door, which is highlighted by a red box. The lamp is positioned directly above the door, making it the closer object to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located on a table to the left of the image, while the blinds are highlighted by a blue box and are located in the background of the image, behind the lamp. Therefore, the lamp is closer to the camera than the blinds.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a red box and is positioned in front of the bookshelf, which is highlighted by a blue box. The door is also closer to the camera than the bookshelf, as it is located in the foreground of the image. Therefore, the correct answer is (A) door."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "The sofa is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The bookcase is further away from the camera, and the books are in front of it. Therefore, the correct answer is (A) books."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The television is further away from the camera, and the table is in front of it. The table is also closer to the viewer's line of sight, making it appear closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The door is further away from the camera, and the pillow is in front of it. The pillow is highlighted by a blue box, and the door is highlighted by a red box.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located in the top left corner of the image, while the refrigerator is highlighted by a blue box and is located in the center of the image. The lamp is also smaller than the refrigerator, which suggests that it is closer to the camera.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a blue box and is located in the background of the image, while the refrigerator is highlighted by a red box and is located in the foreground. The door is also partially obscured by the refrigerator, making it appear closer to the camera.\n\n*Answer*: (B) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The books are highlighted by a red box and are located on a table in the foreground of the image, while the lamp is highlighted by a blue box and is located in the background of the image. The books are also more prominent in the image, as they are the main focus of the foreground, whereas the lamp is a secondary element in the background.\n\n*Answer*: (A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the door is highlighted by a blue box and is located in the background. The table is also more prominent in the image, with the door being partially obscured by the table and chairs.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo. The television is further away from the camera, and the shelves are in front of it. The shelves are also more prominent in the foreground of the image, making them appear closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in front of the bookcase. The table is highlighted by a blue box, while the bookcase is highlighted by a red box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The table is also positioned in front of the bookcase, which suggests that it is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a red box and is located in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The chair is also positioned in front of the bookcase, which further supports the conclusion that it is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is positioned in front of the desk, which is highlighted by a red box. The table is also closer to the camera's lens, as it is more centered in the frame and appears larger than the desk.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in the foreground. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a red box and is located in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The chair is also smaller than the bookcase, which further supports the conclusion that it is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The bookcase is further away from the camera, and the chair is in front of it. Therefore, the chair is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "The sofa is closer to the camera taking this photo. The sofa is highlighted by a red box, and the table is highlighted by a blue box. The sofa is in the foreground, while the table is in the background. Therefore, the sofa is closer to the camera.\n\n*Answer*: (A) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The television is further away from the camera, and the table is in front of it. The table is highlighted by a red box, and the television is highlighted by a blue box.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo, as it is positioned in front of the shelves. The chair is highlighted by a blue box, while the shelves are highlighted by a red box. The chair is also more prominent in the foreground of the image, making it appear closer to the camera.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located on a table in front of the camera, while the blinds are highlighted by a blue box and are located behind the lamp, further away from the camera. Therefore, the lamp is closer to the camera than the blinds.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is located in the foreground of the image, while the shelves are highlighted by a red box and are located in the background. The table is also positioned closer to the center of the image, making it more prominent and visible than the shelves.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located in the top left corner of the image, while the counter is highlighted by a blue box and is located in the bottom right corner of the image. The lamp is also positioned at a lower height than the counter, which suggests that it is closer to the camera.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is positioned in front of the table, which is highlighted by a blue box. The lamp is also closer to the camera than the table, as it is located in the foreground of the image.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in front of the bookcase. The bookcase is located behind the table, which means that the table is more visible and closer to the camera.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "The table highlighted by the red box is closer to the camera taking this photo. The desk highlighted by the blue box is further away from the camera.\n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The television is further away from the camera, and the table is in front of it. The table is highlighted by a red box, and the television is highlighted by a blue box.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) mirror"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is positioned in front of the desk, which is highlighted by a blue box. The table is also closer to the camera than the desk, as it is located in the foreground of the image. The desk is located in the background of the image, behind the table.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The table is also positioned at a slightly different angle than the bookcase, which further supports the conclusion that it is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is located in the center of the image, while the door is highlighted by a red box and is located on the left side of the image, further away from the camera. Therefore, the lamp is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The books are highlighted by a red box and are located on a table in the foreground of the image, while the desk is highlighted by a blue box and is located in the background of the image. The books are also more prominent in the image, as they are the main focus of the foreground, whereas the desk is a secondary element in the background.\n\n*Answer*: (A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is positioned on the left side of the image, while the table is highlighted by a red box and is located on the right side of the image. The lamp is also closer to the foreground of the image, which suggests that it is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The table is further away from the camera, and the bookcase is in front of it. The bookcase is highlighted by a blue box, and the table is highlighted by a red box.\n\n*Answer*: (B) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo. The shelves are highlighted by a red box and are located on the left side of the image, while the pillow is highlighted by a blue box and is located on the right side of the image. The shelves are also closer to the center of the image, which suggests that they are closer to the camera.\n\n*Answer*: (A) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo. The lamp is located on the ceiling, while the television is situated on a lower surface, making it more visible and closer to the camera's perspective.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The books are highlighted by a red box and are sitting on a table in front of the camera, while the chair is highlighted by a blue box and is located behind the table, further away from the camera. Therefore, the correct answer is (A) books."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The table is behind the lamp, and the lamp is in front of the table. The lamp is highlighted by a blue box, and the table is highlighted by a red box.\n\n*(B)* lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is located in the foreground of the image, while the lamp is highlighted by a red box and is located in the background. The chair is also positioned in front of the lamp, which suggests that it is closer to the camera.\n\n*Answer*: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box, and the blinds are highlighted by a blue box. The table is in front of the blinds, so it is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The shelves are in the background, while the table is in the foreground. The table is highlighted by a blue box, and the shelves are highlighted by a red box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is positioned in the foreground of the image, while the bookcase is highlighted by a blue box and is located in the background. The table is also more prominent in the image, with a larger portion of it visible compared to the bookcase.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in the foreground and the bookcase is further away in the background. The table is highlighted by a blue box, while the bookcase is highlighted by a red box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located in the foreground of the image, while the television is highlighted by a blue box and is located in the background of the image. The lamp is also positioned at a lower height than the television, which suggests that it is closer to the camera.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located on the right side of the image, while the television is highlighted by a blue box and is located on the left side of the image. The lamp is also positioned closer to the center of the image, making it more visible and prominent in the photo.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is closer to the camera. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the desk is highlighted by a blue box and is located in the background of the image. \n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera taking this photo. The door is further away from the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "The box is closer to the camera taking this photo. The box is highlighted by a red box and is located on the left side of the image, while the desk is highlighted by a blue box and is located on the right side of the image. The box is also positioned in front of the desk, which means it is closer to the camera.\n\n*Answer*: (A) box"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera taking this photo. The lamp is further away from the camera, as it is located on the ceiling. The refrigerator is situated in the foreground of the image, while the lamp is in the background.\n\n*Answer*: (A) refrigerator"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is positioned in front of the table, which is highlighted by a blue box. The lamp is also closer to the camera than the table, as it is positioned in the foreground of the image.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the shelves are highlighted by a blue box and are located in the background of the image. The table is also more prominent in the image, with the shelves being partially obscured by the table.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is located in the top center of the image, while the refrigerator is highlighted by a red box and is located in the bottom center of the image. The lamp is also smaller than the refrigerator, which suggests that it is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a blue box and is located in the center of the image, while the lamp is highlighted by a red box and is located on the right side of the image, further away from the camera. Therefore, the door is closer to the camera than the lamp.\n\n*Answer*: (B) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located in the top left corner of the image, while the shelves are highlighted by a blue box and are located in the bottom left corner of the image. The lamp is also positioned higher up in the image, which suggests that it is closer to the camera.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) towel"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The mirror is further away from the camera, and the books are in the foreground. \n\nAnswer: (A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The television is further away from the camera and is located on a wall behind the couch where the pillow is placed. \n\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located on the right side of the image, while the television is highlighted by a blue box and is located on the left side of the image. The lamp is also positioned closer to the center of the image, making it more visible and prominent compared to the television.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in front of it. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a blue box and is located in the background of the image, while the books are highlighted by a red box and are located in the foreground of the image. The bookcase is also larger than the books, which makes it more prominent in the image.\n\n*Answer*: (B) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The door is further away from the camera, and the lamp is in front of it. The lamp is highlighted by a blue box, and the door is highlighted by a red box.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a red box and is positioned in the foreground of the image, while the table is highlighted by a blue box and is located in the background. The door is also more prominent in the image, with its frame and handle visible, whereas the table is partially obscured by the door and other objects in the room.\n\n*Answer*: (A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in front of the bookcase and appears larger in the image. The bookcase is further away from the camera and appears smaller in the image.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The pillow is highlighted by a red box and is located in the foreground of the image, while the desk is highlighted by a blue box and is located in the background. The pillow is also smaller than the desk, which makes it appear closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located on the right side of the image, while the chair is highlighted by a blue box and is located on the left side of the image. The lamp is also positioned closer to the center of the image, making it more visible and prominent compared to the chair.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 102
+        }
+    ],
+    "incorrectly marked": [
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is located in the foreground of the image, while the desk is highlighted by a red box and is located in the background. The chair is also positioned at a more shallow angle to the camera, making it appear closer than the desk.\n\n*Answer*: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in the foreground and the bookcase is located in the background. The table is highlighted by a red box, while the bookcase is highlighted by a blue box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is located in the top center of the image, while the door is highlighted by a red box and is located in the middle left of the image. The lamp is also positioned higher up in the image than the door, which suggests that it is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) blinds"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The door is further away from the camera, and the books are in the foreground. \n\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo, as it is positioned in the foreground and the books are located in the background. The door is highlighted by a red box, while the books are highlighted by a blue box.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "The sofa is closer to the camera taking this photo. The television is further away from the camera, and the sofa is in front of it. Therefore, the sofa is closer to the camera.\n\n*Answer*: (B) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The pillow is highlighted by a blue box and is located in the foreground of the image, while the sink is highlighted by a red box and is located in the background. The pillow is also smaller than the sink, which further supports the conclusion that it is closer to the camera.\n\n*Answer*: (B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in front of the television and is more visible in the foreground. The television is located on the wall behind the table and is less prominent in the image.\n\n*(B)* television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The door is further away from the camera, and the pillow is in front of it. Therefore, the pillow is closer to the camera.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera taking this photo. The lamp is located on the ceiling, while the refrigerator is situated on the wall behind the counter, making it more visible and closer to the camera.\n## LLM FORCED ##\nAnswer: (B) refrigerator"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: B"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a blue box and is located in the background of the image, while the refrigerator is highlighted by a red box and is located in the foreground. The door is also partially obscured by the refrigerator, making it appear closer to the camera.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a red box and is located in the foreground of the image, while the books are highlighted by a blue box and are located in the background of the image.\n## LLM FORCED ##\nAnswer: (A) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo. The door is further away from the camera, and the books are in the foreground. \n\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a red box and is located in the foreground of the image, while the door is highlighted by a blue box and is located in the background. The table is also more prominent in the image, with the door being partially obscured by the table and chairs.\n\n*Answer*: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo. The television is highlighted by a red box and is located in the background of the image, while the books are highlighted by a blue box and are located in the foreground of the image. The television is also larger than the books, which further supports the conclusion that it is closer to the camera.\n\n*Answer*: (A) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in front of it. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box, and the books are highlighted by a blue box. The bookcase is located in the background of the image, while the books are placed on a table in the foreground. Therefore, the bookcase is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box, and it is positioned in front of the desk, which is highlighted by a red box. The table is also closer to the camera than the desk, as it is located in the foreground of the image.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in the foreground. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The television is further away from the camera, and the table is in front of it. The table is highlighted by a blue box, and the television is highlighted by a red box.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "The sofa is closer to the camera taking this photo, the sofa (highlighted by a red box) or the table (highlighted by a blue box)? (A) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is positioned in front of the shelves, which are highlighted by a red box. The chair is also closer to the camera than the shelves, as it is in the foreground of the image and the shelves are in the background. Therefore, the correct answer is (B) chair."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo, the lamp (highlighted by a red box) or the blinds (highlighted by a blue box)? (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is positioned in front of the floor mat, which is highlighted by a red box. The chair is also closer to the camera than the floor mat, as it is located in the foreground of the image and the floor mat is located in the background.\n\n*Answer*: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo. The desk is highlighted by a red box and is located in the center of the image, while the books are highlighted by a blue box and are located on the coffee table in the foreground of the image. The desk is also larger than the coffee table, which suggests that it is closer to the camera.\n\n*Answer*: (A) desk"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "The counter is closer to the camera taking this photo. The lamp is located on the ceiling, while the counter is situated on the floor, making it more visible and closer to the camera's perspective.\n## LLM FORCED ##\nAnswer: (B) counter"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The television is behind the lamp, and the lamp is in front of the television. Therefore, the lamp is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is positioned in front of the lamp, which is highlighted by a red box. The table is also closer to the center of the image, while the lamp is positioned on the right side of the image.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in front of it. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The sofa is further away from the camera, and the lamp is in front of it. Therefore, the lamp is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in the foreground of the image, while the television is located in the background. The table is also highlighted by a red box, which indicates that it is the object being referred to in the question.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera taking this photo. The mirror is highlighted by a blue box and is located on the right side of the image, while the shelves are highlighted by a red box and are located on the left side of the image. The mirror appears to be reflecting the shelves, which are behind it. Therefore, the mirror is closer to the camera than the shelves.\n\n*Answer*: (B) mirror"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo. The desk is highlighted by a blue box and is positioned in front of the table, which is highlighted by a red box. The desk is also closer to the center of the image, while the table is located on the left side of the image.\n\n*Answer*: (B) desk"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera taking this photo. The towel is highlighted by a blue box and is located on a table in front of the window, while the blinds are highlighted by a red box and are located behind the window. The towel is also smaller than the blinds, which makes it appear closer to the camera.\n\n*Answer*: (B) towel"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is located in the center of the image, while the door is highlighted by a red box and is located on the left side of the image, further away from the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a blue box and is positioned on the left side of the image, while the table is highlighted by a red box and is located on the right side of the image. The lamp is also closer to the foreground of the image, which suggests that it is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The table is further away from the camera, and the bookcase is in front of it. The bookcase is highlighted by a blue box, and the table is highlighted by a red box.\n\n*(B)* bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo. The bookcase is further away from the camera, and the pillow is in front of it. Therefore, the pillow is closer to the camera.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "The books are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo. The lamp is located on the ceiling, while the television is situated on a lower surface, making it more visible and closer to the camera's perspective.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is located on the right side of the image, while the bookcase is highlighted by a red box and is located on the left side of the image. The table is also positioned in front of the bookcase, which means it is closer to the camera.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The table is behind the lamp, and the lamp is in front of the table.\n\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is positioned in front of the lamp, which is highlighted by a red box. The chair is also closer to the camera than the lamp, as it is located in the foreground of the image and the lamp is located in the background. Therefore, the correct answer is (B) chair."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box and is positioned in front of the television, which is highlighted by a red box. The chair is also closer to the camera than the television, as it is located in the foreground of the image. Therefore, the correct answer is (B) chair."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera taking this photo. The table is further away from the camera, and the blinds are in front of the window, which is closer to the camera. Therefore, the blinds are closer to the camera.\n\n*Answer*: (B) blinds"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is located in the foreground of the image, while the shelves are highlighted by a red box and are located in the background. The table is also more prominent in the image, with the shelves being partially obscured by the table and other objects in the scene.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo, as it is positioned in the foreground and the bookcase is located in the background. The table is highlighted by a red box, while the bookcase is highlighted by a blue box.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is located in the center of the image, while the table is highlighted by a blue box and is located on the right side of the image, further away from the camera. Therefore, the bookcase is closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The bookcase is further away from the camera, and the table is in front of it. The table is highlighted by a blue box, and the bookcase is highlighted by a red box.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is located in the center of the image, while the table is highlighted by a blue box and is located on the right side of the image, further away from the camera. Therefore, the bookcase is closer to the camera.\n\n*Answer*: (A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo. The desk is highlighted by a blue box and is positioned in front of the table, which is highlighted by a red box. The desk is also closer to the center of the image, while the table is located on the left side of the image.\n\n*Answer*: (B) desk"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The table is further away from the camera, and the lamp is in front of it. Therefore, the lamp is closer to the camera.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The television is further away from the camera, and the lamp is closer to the camera. Therefore, the lamp is closer to the camera taking this photo.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera taking this photo. The lamp is further away from the camera, and the refrigerator is in the foreground of the image. The refrigerator is highlighted by a red box, and the lamp is highlighted by a blue box.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is positioned in front of the lamp, which is highlighted by a red box. The table is also closer to the center of the image, while the lamp is located on the right side of the image.\n\n*Answer*: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is located in the center of the image, while the table is highlighted by a blue box and is located on the right side of the image, further away from the camera. Therefore, the bookcase is closer to the camera.\n\n*Answer*: (A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "The shelves are closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) shelves"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera taking this photo. The lamp is located on the ceiling, which is further away from the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The table is highlighted by a blue box and is located in the foreground of the image, while the desk is highlighted by a red box and is located in the background. The table is also more prominent in the image, as it is the main focus of the photo.\n\n*Answer*: (B) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The lamp is highlighted by a red box and is located in the top left corner of the image, while the shelves are highlighted by a blue box and are located in the bottom left corner of the image. The lamp is also positioned higher up in the image, which suggests that it is closer to the camera.\n\n*Answer*: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera taking this photo. The towel is highlighted by a blue box, which is located behind the blinds, and the blinds are highlighted by a red box, which is located in front of the towel. Therefore, the blinds are closer to the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a red box and is located in the foreground of the image, while the books are highlighted by a blue box and are located in the background of the image. The door is also more prominent in the image, as it is the main focus of the photo.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo. The television is highlighted by a blue box and is positioned on a wall, while the pillow is highlighted by a red box and is placed on a couch. The television is also larger than the pillow, making it more prominent in the image.\n\n*Answer*: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera taking this photo. The towel is on a table to the left of the blinds, and the blinds are in front of a window. The blinds are also larger than the towel, which makes them more prominent in the image.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "The television is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is located in the center of the image, while the table is highlighted by a blue box and is located on the right side of the image, further away from the camera.\n\n*Answer*: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo, as it is positioned directly in front of the camera, while the books are located on a shelf within the bookcase, which is further away from the camera.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera taking this photo. The door is further away from the camera, and the lamp is closer to the camera. The lamp is highlighted by a blue box, and the door is highlighted by a red box.\n\n*Answer*: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo. The door is further away from the camera, and the table is in front of it. The table is also closer to the center of the image, while the door is more towards the edge.\n\n*(B)*"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is positioned in front of the table, which is highlighted by a blue box. The bookcase is also closer to the camera than the table, as it is positioned in the foreground of the image. The table is positioned in the background of the image, behind the bookcase.\n\n*Answer*: (A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "The door is closer to the camera taking this photo. The door is highlighted by a red box and is located in the center of the image, while the shelves are highlighted by a blue box and are located on the left side of the image. The door is also larger than the shelves, which makes it more prominent in the image.\n\n*Answer*: (A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo.\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera taking this photo. The bookcase is highlighted by a red box and is located in the center of the image, while the table is highlighted by a blue box and is located on the right side of the image, further away from the camera. Therefore, the bookcase is closer to the camera.\n\n*Answer*: (A) bookcase"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 102
+        }
+    ]
+}

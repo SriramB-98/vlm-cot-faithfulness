@@ -5,10 +5,11 @@ import torch
 from functools import partial
 from qwen_vl_utils import process_vision_info
 from internvl import internvl_preprocess, get_internvl_model_tokenizer, get_internvl_pipeline
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor, MllamaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, Qwen2_5_VLImageProcessor, Qwen2VLImageProcessor
+from transformers import Qwen2VLForConditionalGeneration, AutoProcessor, MllamaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, Qwen2VLImageProcessor
 from lmdeploy.vl.constants import IMAGE_TOKEN
 from lmdeploy import GenerationConfig
 from transformers import pipeline
+import vllm
 import base64
 from openai import AsyncOpenAI
 import io
@@ -262,7 +263,12 @@ async def openai_api_predict(client, model_name, sample_to_predict, context_samp
         print(f"Dropping {k} = {v} in openai_api_predict")
 
     messages, images = openai_template(sample_to_predict, context_samples, give_reasoning=give_reasoning, hint=hint, num_options=num_options, remove_explicit_question=remove_explicit_question, system_prompt=system_prompt, reasoning_prompt=reasoning_prompt, img_encoding=img_encoding)
-    
+
+    if 'QVQ' in model_name:
+        messages[-1]["content"].append(
+            {"type": "text", "text": "Be concise and to the point. You are LIMITED to think for at most 5 sentences before giving the answer. "}
+        )
+
     chat_response = await client.chat.completions.create(
         model=model_name,
         messages=messages,
@@ -306,6 +312,8 @@ def get_client(model_name, backend='vllm', api_key=None, base_url=None, **kwargs
 
 def get_model_tokenizer(model_name, *args, **kwargs):
     if "InternVL" in model_name:
+        model = get_internvl_pipeline(model_name, *args, **kwargs)
+        return model, None, internvl_pipeline_cvbench_predict
         if 'AWQ' in model_name:
             model = get_internvl_pipeline(model_name, *args, **kwargs)
             return model, None, internvl_pipeline_cvbench_predict

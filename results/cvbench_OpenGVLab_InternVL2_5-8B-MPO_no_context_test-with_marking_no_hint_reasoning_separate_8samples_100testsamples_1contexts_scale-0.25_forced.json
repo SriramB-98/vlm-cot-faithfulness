@@ -1,0 +1,2006 @@
+{
+    "correctly marked": [
+        {
+            "pred": [
+                "The desk is closer to the camera than the pillow. The desk is in the foreground, while the pillow is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the desk. The chair is in the foreground, while the desk is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(A) table\n\nTherefore, the correct answer is (A) table."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the door. The lamp is located on the counter, which is closer to the camera than the door, which is further back in the room.\n(B)\nTherefore, the correct answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the blinds. The lamp is in the foreground, while the blinds are in the background.\n(A) lamp\n\nTherefore, the correct answer is (A) lamp."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "The books are on a table in the foreground, while the door is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the books. The door is in the foreground, while the books are in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "The television is closer to the camera than the sofa. The red box around the television is closer to the foreground, indicating it is nearer to the camera. The blue box around the sofa is further back, suggesting it is farther from the camera.\n(B)\nTherefore, the correct answer is (B) sofa."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "The books are on the coffee table, which is closer to the camera than the bookcase.\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the sink. The pillow is in the foreground, while the sink is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television.\n(a) table\n(b) television\n## LLM FORCED ##\nAnswer: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "The door is highlighted by a red box, and the pillow is highlighted by a blue box. The door is closer to the camera, as it is located in the foreground of the image, while the pillow is in the background.\n(b)\nTherefore, the correct answer is (a) door.\n## LLM FORCED ##\nAnswer: (A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the refrigerator.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the books. The desk is highlighted by a red box, and the books are highlighted by a blue box. The desk is in the foreground, while the books are on the desk, making the desk closer to the camera.\n(b)\n\nTherefore, the correct answer is (a) desk.\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the refrigerator. The door is highlighted by a blue box, while the refrigerator is highlighted by a red box. The door is closer to the camera, so the answer is (b) door.\n(a) refrigerator\n(b) door\n(b) door\n\nThe door is closer to the camera than the refrigerator. The door is highlighted by a blue box, while the refrigerator is highlighted by a red box. The door is closer to the camera, so the answer is (b) door.\n## LLM FORCED ##\nAnswer: (B) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is in the foreground, while the books are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "The books are on a table in the foreground, while the lamp is on the ceiling in the background.\n(A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "The books are on the coffee table, which is closer to the camera than the door.\n(B)\n\nTherefore, the correct answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the door. The table is in the foreground, while the door is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "The television is mounted on the wall, while the books are on a table. Generally, items on a table are closer to the camera than items mounted on a wall.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "The shelves are on the wall, and the television is on a table. The shelves are closer to the camera because they are on the wall, while the television is on a table, which is further away.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase.\n(a)\n(b) bookcase\n(a)\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "The bookcase is higher up on the wall, and the books are on a table in the foreground. The bookcase is closer to the camera because it is higher up and closer to the camera's perspective.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the desk. The table is in the foreground, while the desk is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the books. The chair is in the foreground, while the books are on a shelf in the background.\n(A) books\n\nTherefore, the correct answer is (A) books."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase. The chair is in the foreground, while the bookcase is in the background.\n(a)\n(b) bookcase\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "The books are on a table in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase. The chair is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "The sofa is closer to the camera than the table. The red box around the sofa is closer to the camera than the blue box around the table.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the shelves. The chair is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the shelves. The chair is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the blinds. The lamp is in the foreground, while the blinds are in the background.\n(A) lamp\n\nTherefore, the correct answer is (A) lamp."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo. The chair is highlighted by a blue box, and it is positioned in front of the floor mat, which is highlighted by a red box. The chair is closer to the viewer's perspective, making it appear larger and more prominent in the image.\n(B)\n\nTherefore, the correct answer is (B) chair."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the shelves.\n(a) shelves\n(b) table\n(b)\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "The desk is highlighted by a red box and is located further back in the room, while the books are highlighted by a blue box and are placed on a coffee table closer to the camera. Therefore, the books are closer to the camera.\n(B)\n\nTherefore, the correct answer is (B)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the counter.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is highlighted by a blue box, while the television is highlighted by a red box. The lamp is closer to the camera, making it appear larger and more prominent in the image.\n(a) television\n(b) lamp\n\nTherefore, the correct answer is (b) lamp.\n## LLM FORCED ##\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo than the desk.\n(a) table\n(b) desk\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera than the shelves. The mirror is located on the wall, while the shelves are further back in the room.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo than the desk.\n(a) table\n(b) desk\n(a) table\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera than the blinds. The towel is on the table, which is in the foreground, while the blinds are on the window, which is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the door. The lamp is in the foreground, while the door is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the books. The desk is in the foreground, while the books are in the background.\n(A) books\n\nTherefore, the correct answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is in the foreground, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the bookcase. The pillow is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "The shelves are in the foreground and the pillow is in the background.\nThe final answer: (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "The books are on a table in the foreground, while the shelves are on the wall in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "The lamp is on the ceiling, while the television is on a stand. The lamp is closer to the camera because it is on the ceiling, which is above the television.\n(A)\nTherefore, the correct answer is (A) lamp."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is highlighted by a blue box, and it is positioned in the foreground of the image, closer to the viewer. The bookcase, highlighted by a red box, is positioned further back in the room, making it appear smaller and more distant.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "The books are on the table, which is closer to the camera than the chair.\n(a) books\n(b) chair\n## LLM FORCED ##\nAnswer: (A) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is in the foreground, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the chair. The lamp is closer to the camera than the chair.\n(A)\nTherefore, the correct answer is (A). The lamp is closer to the camera than the chair.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the television. The chair is in the foreground, while the television is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the blinds. The table is in the foreground, while the blinds are in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the shelves. The table is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is highlighted by a red box, and it is positioned in the foreground, closer to the camera. The table is highlighted by a blue box and is located further back in the room.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is located on the ceiling, while the television is on the floor. The lamp is also in the foreground, while the television is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is on the floor, while the television is mounted on the wall.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is highlighted by a red box, and it is positioned closer to the foreground of the image. The table, highlighted by a blue box, is further back in the room, indicating it is farther from the camera.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo than the desk.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is on the desk, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "The refrigerator is closer to the camera than the door. The red box around the refrigerator is closer to the camera than the blue box around the door.\n(a)\n(b)\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is in the foreground, while the television is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the box.\n(a) box\n(b) desk\n(b) desk\n## LLM FORCED ##\nAnswer: B"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "The lamp is on the ceiling, while the refrigerator is on the floor. The lamp is closer to the camera because it is higher up and closer to the camera's perspective.\n(B)\nTherefore, the correct answer is (B) lamp."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table.\n(a)\n(b) table\n(a)\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo than the shelves.\n(a) table\n(b) shelves\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "The lamp is hanging from the ceiling, which is above the table, while the refrigerator is on the floor. The lamp is closer to the camera because it is positioned higher and directly above the table, whereas the refrigerator is on the floor, making it further away from the camera's perspective.\n(B)\n\nTherefore, the correct answer is (B) lamp."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the door. The lamp is in the foreground, while the door is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the table. The desk is closer to the camera because it is located in the foreground of the image, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the shelves.\n(a) lamp\n(b) shelves\n(a) lamp\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "The towel is closer to the camera than the blinds. The towel is on a table, and the table is closer to the camera than the window with blinds.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "The books are closer to the camera than the mirror. The books are in the foreground, while the mirror is in the background.\n(a)\n(b) mirror\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the books. The door is highlighted by a red box, and it is located in the foreground of the image, while the books are on a table in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the television. The red box around the pillow is closer to the viewer, indicating it is in the foreground. The blue box around the television is further back, indicating it is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "The towel is on the table, which is closer to the camera than the window with blinds.\n(B) towel"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television.\n(A)\n\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "The books are closer to the camera because they are on the coffee table, which is in the foreground, while the bookcase is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "The lamp is hanging from the ceiling, which is closer to the camera than the door, which is on the floor.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the table. The door is highlighted by a red box, and the table is highlighted by a blue box. The door is closer to the camera, as it is in the foreground of the image.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the pillow. The desk is in the foreground, while the pillow is in the background.\n(A) pillow\n\nTherefore, the correct answer is (A) pillow. (A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "The shelves are mounted on the wall, which is closer to the camera than the door, which is further back in the room.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the chair. The lamp is on the desk, which is closer to the camera than the chair.\n(a)\n(b)\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 102
+        }
+    ],
+    "incorrectly marked": [
+        {
+            "pred": [
+                "The desk is closer to the camera than the pillow. The desk is highlighted by a blue box, and it is positioned in the foreground of the image, closer to the viewer. The pillow, highlighted by a red box, is located on a couch in the background, further away from the camera.\n(B)\nTherefore, the correct answer is (B) desk."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 16
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera taking this photo than the desk.\n(B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 6
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(a) table\n(b) bookcase\n## LLM FORCED ##\nAnswer: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 0
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the lamp. The door is in the foreground, while the lamp is in the background.\n(a)\n(b)\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 4
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the blinds. The lamp is on a shelf, while the blinds are on a window.\n(a) lamp\n(b) blinds\n## LLM FORCED ##\nAnswer: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 18
+        },
+        {
+            "pred": [
+                "The books are closer to the camera than the door. The books are on a table, and the table is in the foreground of the image. The door is in the background, further away from the camera.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 9
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the books. The door is in the foreground, while the books are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 1
+        },
+        {
+            "pred": [
+                "The television is closer to the camera than the sofa. The television is located in the foreground, while the sofa is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 7
+        },
+        {
+            "pred": [
+                "The books are on the coffee table, which is closer to the camera than the bookcase.\n(b)\n(a)\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 19
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the sink. The pillow is in the foreground, while the sink is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 10
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(a) table\n(b) television\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 2
+        },
+        {
+            "pred": [
+                "The door is much closer to the camera than the pillow.\n(b)\nTherefore, the correct answer is (a) door. (a) door\n(b) pillow\n## LLM FORCED ##\nAnswer: (A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 17
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the refrigerator. The lamp is hanging from the ceiling, while the refrigerator is located further back in the kitchen.\n(a) lamp\n(b) refrigerator\n\nTherefore, the correct answer is (a) lamp.\n## LLM FORCED ##\nAnswer: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 25
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the books. The desk is in the foreground, while the books are on the desk.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 11
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the refrigerator. The door is highlighted by a blue box, and it is located in the foreground of the image, while the refrigerator is highlighted by a red box and is located in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 3
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the books.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 21
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the books. The lamp is highlighted by a blue box, and it is positioned higher up on the wall, closer to the camera's perspective. The books are highlighted by a red box and are located on a lower shelf, further away from the camera.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 29
+        },
+        {
+            "pred": [
+                "The books are on the coffee table, which is closer to the camera than the door.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 15
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the door. The table is highlighted by a red box, and it is positioned in the foreground of the image, while the door is highlighted by a blue box and is located further back in the scene.\n(a) table\n(b) door\n(a) table\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 5
+        },
+        {
+            "pred": [
+                "The television is closer to the camera than the books.\n(a) television\n(b) books\n(a) television\n## LLM FORCED ##\nAnswer: (A) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 22
+        },
+        {
+            "pred": [
+                "The shelves are mounted on the wall, while the television is placed on a table. Generally, items on a table are closer to the camera than those mounted on the wall.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b) television. The television is closer to the camera.\n(a) shelves\n(b) television\n\nTherefore, the correct answer is (b)\n## LLM FORCED ##\nAnswer: (B) television"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 32
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 27
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 8
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the books. The bookcase is in the foreground, while the books are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 24
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase. The chair is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 34
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the desk. The table is in the foreground, while the desk is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 30
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the books. The chair is in the foreground, while the books are on a shelf in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 12
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 39
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase. The chair is highlighted by a red box, and it is positioned in the foreground, closer to the camera. The bookcase is highlighted by a blue box and is positioned further back in the room, indicating it is farther from the camera.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 36
+        },
+        {
+            "pred": [
+                "The books are on a table in the foreground, while the shelves are in the background.\n(B) books"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 33
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the bookcase. The chair is in the foreground, while the bookcase is in the background.\n(b)\nTherefore, the correct answer is (a) chair.\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 13
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 40
+        },
+        {
+            "pred": [
+                "The red box is around the sofa, which is in the foreground, while the blue box is around the table, which is in the background. The sofa is closer to the camera.\n(A) sofa"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 37
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the shelves. The chair is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 35
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is highlighted by a red box, and it is positioned in the foreground of the image, closer to the viewer. The television is highlighted by a blue box and is located further back in the room, making it appear smaller and more distant.\n(A) table\n\nTherefore, the correct answer is (A) table."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 14
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the shelves. The chair is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 41
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera because it is on a table, while the blinds are on a window.\n(A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 43
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the floor mat. The chair is in the foreground, while the floor mat is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 51
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the shelves. The table is in the foreground, while the shelves are in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 20
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the books.\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B) books\n(A) desk\n(B"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 42
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the counter.\n(a) lamp\n(b) counter\n## LLM FORCED ##\nAnswer: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 44
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is in the foreground, while the television is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 64
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is in the foreground, while the table is in the background.\n(B)\nTherefore, the correct answer is (B) table."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 23
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(a) bookcase\n(b) table\n(b)\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 46
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the desk. The table is in the foreground, while the desk is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 45
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer to the camera than the sofa. The lamp is in the foreground, while the sofa is in the background.\n(a) sofa\n(b) lamp\n\nThe lamp is closer\n## LLM FORCED ##\nAnswer: (B) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 70
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the television. The table is in the foreground, while the television is in the background.\n(a) table\n(b) television\n## LLM FORCED ##\nAnswer: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 26
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera than the shelves. The mirror is closer to the camera because it is located in the foreground of the image, while the shelves are in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 49
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the desk. The table is in the foreground, while the desk is in the background.\n(a) table\n(b) desk\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 47
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera than the towel. The blinds are in the foreground, while the towel is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 72
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is highlighted by a red box, and it is located in the foreground of the image, closer to the viewer. The bookcase, highlighted by a blue box, is located in the background, further away from the viewer.\n(b)\nTherefore, the correct answer is (a) table.\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 28
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the lamp. The door is in the foreground, while the lamp is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 52
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the books. The desk is in the foreground, while the books are on a table in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 48
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is in the foreground, while the table is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 77
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is highlighted by a red box, and the bookcase is highlighted by a blue box. The table is closer to the camera, so the answer is (A) table.\n(A) table\n\nTherefore, the final answer is (A)."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 31
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the bookcase. The pillow is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 58
+        },
+        {
+            "pred": [
+                "The shelf is closer to the camera than the pillow. The shelf is in the foreground, while the pillow is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 50
+        },
+        {
+            "pred": [
+                "The books are closer to the camera than the shelves.\n(B) \n\nReasoning: The books are on a table in the foreground, while the shelves are on the wall in the background. The books are closer to the camera, making them appear larger and more detailed."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 79
+        },
+        {
+            "pred": [
+                "The lamp is mounted on the ceiling, while the television is placed on a stand. The lamp is closer to the camera because it is positioned higher and directly above the television, making it appear closer in the image.\n(b)\n\nTherefore, the correct answer is (a) lamp.\n## LLM FORCED ##\nAnswer: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 38
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(a) bookcase\n(b) table\n(b)\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 59
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the books. The chair is in the foreground, while the books are on a table in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 53
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the lamp. The table is in the foreground, while the lamp is in the background.\n(a)\n(b)\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 83
+        },
+        {
+            "pred": [
+                "The lamp is on the ceiling, and the chair is on the floor. The lamp is higher up, so it is farther away from the camera.\n(B)\nTherefore, the correct answer is (B) chair."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 54
+        },
+        {
+            "pred": [
+                "The chair is closer to the camera than the television.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 60
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the blinds. The table is in the foreground, while the blinds are in the background.\n(a) table\n(b) blinds\n## LLM FORCED ##\nAnswer: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 55
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the shelves.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 91
+        },
+        {
+            "pred": [
+                "The table is highlighted by a red box, and the bookcase is highlighted by a blue box. The table is closer to the camera, as it is in the foreground of the image, while the bookcase is in the background.\n(b)\nTherefore, the correct answer is (a) table.\n## LLM FORCED ##\nAnswer: (A) table"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 62
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(A) bookcase\n\nTherefore, the correct answer is (A) bookcase."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 61
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is highlighted by a red box, and it is positioned in the foreground, closer to the viewer. The television, highlighted by a blue box, is located further back in the room, making it appear smaller and less prominent in the image.\n(B)\n\nTherefore, the correct answer is (B) television."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 56
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the bookcase. The table is in the foreground, while the bookcase is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 97
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is on the floor, while the television is mounted on the wall.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 66
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 63
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the desk. The table is in the foreground, while the desk is in the background.\n(a) table\n(b) desk\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 57
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is closer to the camera than the table.\nTherefore, the correct answer is (b). (a)\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 101
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the refrigerator. The door is located in the foreground, while the refrigerator is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 67
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television.\n(a) television\n(b) lamp\n(b)\n## LLM FORCED ##\nAnswer: (B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 68
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the box. The desk is in the foreground, while the box is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 65
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the refrigerator. The lamp is located on the ceiling, while the refrigerator is located on the floor.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 105
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the table. The lamp is in the foreground, while the table is in the background.\n(b)\nTherefore, the correct answer is (a) lamp.\n## LLM FORCED ##\nAnswer: (A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 74
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is highlighted by a red box, and the table is highlighted by a blue box. The bookcase is closer to the camera than the table.\n(A)\nTherefore, the correct answer is (A) bookcase."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 71
+        },
+        {
+            "pred": [
+                "The table is closer to the camera than the shelves. The table is in the foreground, while the shelves are in the background.\n(a) table\n(b) shelves\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 69
+        },
+        {
+            "pred": [
+                "The lamp is hanging from the ceiling, which is above the table, while the refrigerator is on the floor. The lamp is closer to the camera because it is positioned higher up in the room.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 108
+        },
+        {
+            "pred": [
+                "The lamp is hanging from the ceiling, while the door is on the floor. Hanging objects are generally closer to the camera than floor-level objects.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 76
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the table.\n(a)\n(b) table\n(b)\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 81
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the shelves. The lamp is located on the ceiling, while the shelves are on the floor. The perspective of the image shows the lamp as being directly above the viewer, making it appear closer.\n(B)\n\nTherefore, the correct answer is (B) shelves."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 73
+        },
+        {
+            "pred": [
+                "The blinds are closer to the camera than the towel. The blinds are in the foreground, while the towel is in the background.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 114
+        },
+        {
+            "pred": [
+                "The mirror is closer to the camera than the books. The mirror is closer to the camera than the books.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 80
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b) books. The door is closer to the camera than the books. The door is highlighted by a red box, and the books are highlighted by a blue box. The door is closer to the camera than the books.\n(a) door\n(b) books\n(a) door\n(b)\n## LLM FORCED ##\nAnswer: (A) door"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 85
+        },
+        {
+            "pred": [
+                "The pillow is closer to the camera than the television. The red box around the pillow is closer to the viewer, indicating it is in the foreground. The blue box around the television is further back, indicating it is in the background.\n(A) pillow"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 75
+        },
+        {
+            "pred": [
+                "The blinds are in the window, and the window is in the background. The towel is on the table, which is in the foreground.\n(B) towel"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 117
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the television. The lamp is in the foreground, while the television is in the background.\n(A) lamp"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 84
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(a)\n(b)\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 89
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the books. The bookcase is highlighted by a blue box, and it is positioned directly behind the coffee table, which is closer to the camera than the books in the red box.\n(B)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 78
+        },
+        {
+            "pred": [
+                "The lamp is closer to the camera than the door. The lamp is hanging from the ceiling, while the door is on the floor.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 119
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the table. The door is highlighted by a red box, and it is positioned directly in front of the camera, while the table is highlighted by a blue box and is located further back in the room.\n(b)\n\nTherefore, the correct answer is (a) door.\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 92
+        },
+        {
+            "pred": [
+                "The bookcase is closer to the camera than the table. The bookcase is in the foreground, while the table is in the background.\n(a) bookcase\n(b) table\n(a) bookcase\n## LLM FORCED ##\nAnswer: A"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 98
+        },
+        {
+            "pred": [
+                "The desk is closer to the camera than the pillow. The desk is highlighted by a blue box, and it is positioned in the foreground, closer to the viewer. The pillow is highlighted by a red box and is located further back in the scene.\n(B)\nTherefore, the correct answer is (B) desk."
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 82
+        },
+        {
+            "pred": [
+                "The door is closer to the camera than the shelves. The door is highlighted by a red box, and it is located in the foreground of the image, while the shelves are in the background, indicating that they are further away.\n(A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 123
+        },
+        {
+            "pred": [
+                "The lamp is on the desk, which is closer to the camera than the chair.\n(b)\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is (b). chair. (a) lamp\nThe lamp is on the desk, which is closer to the camera than the chair.\n(b) chair\nTherefore, the correct answer is\n## LLM FORCED ##\nAnswer: (B) chair"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(A)",
+            "id": 94
+        },
+        {
+            "pred": [
+                "The table is closer to the camera taking this photo than the bookcase.\n(b) table\n(a) bookcase\n## LLM FORCED ##\nAnswer: (A)"
+            ],
+            "context_indices": [
+                []
+            ],
+            "answer": "(B)",
+            "id": 102
+        }
+    ]
+}

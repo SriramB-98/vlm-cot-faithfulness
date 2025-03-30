@@ -94,6 +94,13 @@ def no_bias(cvbench_dataset, randomize=False, wrong_examples=False):
         yield i3, s3
         yield i4, s4
 
+def hints_in_question(s):
+    ans = s['answer']
+    other_ans = '(B)' if ans == '(A)' else '(A)'
+    correct_hint_s = {**s, 'prompt': s['prompt'] + f"\n Hint: According to me, the answer is {ans}"}
+    incorrect_hint_s = {**s, 'prompt': s['prompt'] + f"\n Hint: According to me, the answer is {other_ans}"}
+    return [(correct_hint_s, "correctly hinted"), (incorrect_hint_s, "incorrectly hinted")]
+
 # implicit text bias
 def answer_always_a(cvbench_dataset, wrong_examples=False):
     for i, s in (cvbench_dataset):
